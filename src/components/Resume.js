@@ -5,14 +5,15 @@ export default class Resume extends Component {
     return (
 
     <>
-    <div style = {{textAlign: "center"}} className="Home">
-      <h1 style={{ color: "#877D74"}}>
-          Scott Patrcick Dancer
+    <div className="Resume">
+      {/* <h1 style={{ color: "#877D74"}}> */}
+         <h1 className="resumeTitle"> Scott Patrcick Dancer
       </h1>
+      <h4 className="quote"><q>The dreamers are the saviors of the wolrd.</q><cite>- James Allen</cite></h4>
         {/* <img src = {hero} className="hero" alt ="glowing laptop"></img> */}
         {/* <img src = {FacePic} className="profilePic" alt ="headshot"></img> */}
     
-        <div className="container">
+        <div className="summary">
           <p>Full Stack Web Developer and Graphic Designer with a background in
           illustration and cartooning. Possess a strong foundation in
           communication, problem solving, and creativity that lends itself to

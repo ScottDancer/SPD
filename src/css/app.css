@@ -1,3 +1,7 @@
-body {
-  background: red;
-}
+@import-normalize;
+@import 'resume.css';
+@import 'homePage.css';
+
+/* *, *::before, *::after {
+  font-family: 'Tangerine', cursive;
+} */
