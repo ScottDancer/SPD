@@ -22,6 +22,9 @@ body {
 
 .Hero {
   background-image: url("../images/hero-comp.jpg");
+  background-size: cover;
+  background-position: center center;
+  /* padding-bottom: 100px; */
 }
 
 .resumeTitle {
