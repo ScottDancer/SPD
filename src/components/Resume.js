@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
+// import Hero from "../images/hero-comp.jpg"
 
 export default class Resume extends Component {
   render () {
     return (
 
     <>
-    <div className="Resume">
+    <div className="Resume Hero">
       {/* <h1 style={{ color: "#877D74"}}> */}
          <h1 className="resumeTitle"> Scott Patrcick Dancer
       </h1>
       <h4 className="quote"><q>The dreamers are the saviors of the wolrd.</q><cite>- James Allen</cite></h4>
-        {/* <img src = {hero} className="hero" alt ="glowing laptop"></img> */}
+        {/* <img src = {Hero} className="Hero" alt ="glowing laptop"></img> */}
         {/* <img src = {FacePic} className="profilePic" alt ="headshot"></img> */}
     
         <div className="summary">

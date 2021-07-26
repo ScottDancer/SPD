@@ -16,7 +16,12 @@ html {
 /* (Resume) Hero - Landing page
 ---------------------------------------------------- */
 body {
-  background-color: aqua;
+  background-color: red;
+
+}
+
+.Hero {
+  background-image: url("../images/hero-comp.jpg");
 }
 
 .resumeTitle {
@@ -45,4 +50,5 @@ body {
 
 .summary {
   text-align: center;
+  color: white;
 }
