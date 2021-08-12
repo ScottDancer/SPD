@@ -10,9 +10,13 @@ export default class Resume extends Component {
       {/* <h1 style={{ color: "#877D74"}}> */}
          <h1 className="resumeTitle"> Scott Patrcick Dancer
       </h1>
-      <h4 className="quote"><q>The dreamers are the saviors of the wolrd.</q><cite>- James Allen</cite></h4>
+      <p className="resumeSubtitle"><q>The dreamers are the saviors of the wolrd.</q><cite>- James Allen</cite></p>
         {/* <img src = {Hero} className="Hero" alt ="glowing laptop"></img> */}
         {/* <img src = {FacePic} className="profilePic" alt ="headshot"></img> */}
+
+        <div className="Headshot">
+
+        </div>
     
         <div className="summary">
           <p>Full Stack Web Developer and Graphic Designer with a background in
