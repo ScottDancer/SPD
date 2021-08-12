@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import FacePic from "../images/headshot.jpg"
+
 // import Hero from "../images/hero-comp.jpg"
 
 export default class Resume extends Component {
@@ -14,11 +16,12 @@ export default class Resume extends Component {
         {/* <img src = {Hero} className="Hero" alt ="glowing laptop"></img> */}
         {/* <img src = {FacePic} className="profilePic" alt ="headshot"></img> */}
 
-        <div className="Headshot">
+      <div className="summary">
+      
+        {/* <div className="Headshot"></div> */}
 
-        </div>
-    
-        <div className="summary">
+        <img src = {FacePic} className="profilePic" alt ="headshot"></img>
+
           <p>Full Stack Web Developer and Graphic Designer with a background in
           illustration and cartooning. Possess a strong foundation in
           communication, problem solving, and creativity that lends itself to
@@ -30,9 +33,10 @@ export default class Resume extends Component {
           <p>Vancouver, WA | (360) 953-7969</p>
           <p>Email:        scottpdancer@gmail.com</p>
           <p>GitHub:      https://github.com/ScottDancer</p>
-          <p> Portfolio:   https://spd-react-profile.herokuapp.com/home</p>
-          <p> LinkedIn:   https://www.linkedin.com/in/scott-dancer-9744091b2/ </p>
+          <p> Portfolio:  https://scottpatrickdancer.com</p>
+          <p> LinkedIn:   https://www.linkedin.com/in/scott-dancer-9744091b2/</p>
         </div>
+
       </div>
     </div>
     </>
