@@ -8,6 +8,7 @@ export default class Resume extends Component {
     return (
 
     <>
+    <body className="site">
     <div id="header">
     <div className="Resume Hero">
 
@@ -18,7 +19,7 @@ export default class Resume extends Component {
         {/* <img src = {FacePic} className="profilePic" alt ="headshot"></img> */}
         
     </div>
-
+      <main id="content" className="main-area">
       <div className="summary">
       
         {/* <div className="Headshot"></div> */}
@@ -41,7 +42,10 @@ export default class Resume extends Component {
         </div>
 
       </div>
+      </main>
     </div>
+  
+    </body>
     </>
 
 
