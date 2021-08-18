@@ -19,8 +19,9 @@ export default class Resume extends Component {
         {/* <img src = {FacePic} className="profilePic" alt ="headshot"></img> */}
         
     </div>
-      <main id="content" className="main-area">
-      <div className="summary">
+      <main id="content" className="mainArea">
+    <section className="summary">
+      <div className="summary-content">
       
         {/* <div className="Headshot"></div> */}
 
@@ -32,16 +33,17 @@ export default class Resume extends Component {
           building applications that are aesthetically pleasing and meet
           client expectations. Earned a Certificate in Web Development from
           the University of Washington.</p>
-
+    
         <div className="contactInfo">
           <p>Vancouver, WA | (360) 953-7969</p>
-          <p>Email:        scottpdancer@gmail.com</p>
+          <p>Email:       scottpdancer@gmail.com</p>
           <p>GitHub:      https://github.com/ScottDancer</p>
           <p> Portfolio:  https://scottpatrickdancer.com</p>
           <p> LinkedIn:   https://www.linkedin.com/in/scott-dancer-9744091b2/</p>
         </div>
-
+        
       </div>
+      </section>
       </main>
     </div>
   
