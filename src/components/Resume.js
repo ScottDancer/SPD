@@ -8,13 +8,16 @@ export default class Resume extends Component {
     return (
 
     <>
+    <div id="header">
     <div className="Resume Hero">
-      {/* <h1 style={{ color: "#877D74"}}> */}
-         <h1 className="resumeTitle"> Scott Patrcick Dancer
+
+        <h1 className="resumeTitle"> Scott Patrcick Dancer
       </h1>
       <p className="resumeSubtitle"><q>The dreamers are the saviors of the wolrd.</q><cite>- James Allen</cite></p>
         {/* <img src = {Hero} className="Hero" alt ="glowing laptop"></img> */}
         {/* <img src = {FacePic} className="profilePic" alt ="headshot"></img> */}
+        
+    </div>
 
       <div className="summary">
       
@@ -22,7 +25,7 @@ export default class Resume extends Component {
 
         <img src = {FacePic} className="profilePic" alt ="headshot"></img>
 
-          <p>Full Stack Web Developer and Graphic Designer with a background in
+          <p className="summaryText">Full Stack Web Developer and Graphic Designer with a background in
           illustration and cartooning. Possess a strong foundation in
           communication, problem solving, and creativity that lends itself to
           building applications that are aesthetically pleasing and meet

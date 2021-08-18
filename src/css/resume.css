@@ -11,41 +11,86 @@ html {
 }
 *, *:before, *:after {
   box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  /* background-color: aqua; */
 }
-
+/* *-----------------------------------------------* */
 /* (Resume) Hero - Landing page
 ---------------------------------------------------- */
-body {
-  background-color: red;
+/* body {
+  background-color: teal;
+
+} */
+
+#header {
+  padding: 0;
+  margin: 0; 
+  display: grid;
+  grid-template-columns: 6fr 1fr 1fr 1fr;
+  grid-template-rows: 100% 400px;
+  grid-template-areas: "header header header resumeTitle "
+    "image summary summary contact"; 
+  grid-gap: 10px;
+
 
 }
+
+header{
+  grid-area: header;
+  padding: 0;
+  margin: 0; 
+}
+
+img{
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  background-position: center center;
+  grid-area: image;
+  height: 100%;
+  
+
+}
+
+.summaryText {
+  grid-area: summary;
+}
+
+.contactInfo {
+  grid-area: contact;
+}
+/* **-----------------------Rainbow Laptop Image------------------** */
 
 .Hero {
   background-image: url("../images/hero-comp.jpg");
   background-size: cover;
   background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   /* padding-bottom: 100px; */
 }
 
-.profilePic {
-  width: 150px;
-  height: 185px;
-  border-radius: 100%;
-  border: 3px solid #877D74;
-  filter: grayscale(100%)
-}
+
+/* **-----------------------Scott Patrick Dancer------------------** */
 
 .resumeTitle {
   font-size: 9rem;
   color: #877D74;
   font-family: 'Tangerine', cursive;
   font-weight: 200;
-  /* line-height: 10rem; */
+  line-height: 10rem;
   height: 35px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  margin: 0;
   text-align: center;
-
+  grid-area: resumeTitle;
 }
+
+/* **-----------------------"Dreamers are the..."------------------** */
 
 .resumeSubtitle {
   font-family: 'Tangerine', cursive;
@@ -56,11 +101,32 @@ body {
   padding-right: 10%;
   margin-bottom:  50px;
   margin-right: 100px;
-  /* line-height: 9rem; */
-
+  line-height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.summary {
+/* **-----------------------Portfolio Headshot------------------** */
+.profilePic {
+  width: 150px;
+  height: 185px;
+  border-radius: 100%;
+  border: 3px solid #877D74;
+  filter: grayscale(77%);
+  background: cornflowerblue;
+}
+
+/* **-----------------------"Full Stack Web..."------------------** */
+.summaryText {
   text-align: center;
   color: white;
+  background: cornflowerblue;
+}
+
+/* **--------------------Contact Information & Links---------------** */
+
+.contactInfo {
+  color: coral;
+  background: white;
 }
