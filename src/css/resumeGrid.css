@@ -1,0 +1,70 @@
+body {
+  /* background-color: teal; */
+  /* background-color: black; */
+}
+
+/* ----------testing resume.css in resumeGrid.css to clean up and understand the code----------------- */
+/* **-----------------------Rainbow Laptop Image------------------** */
+
+.hero {
+  background-image: url("../images/hero-comp.jpg");
+  background-size: cover;
+  /* background-position: center center; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+
+}
+
+
+
+/* ----------testing resume.css in resumeGrid.css to clean up and understand the code----------------- */
+/* **-----------------------"Scott Patrick Dancer"------------------** */
+
+.resumeTitle {
+  font-size: 9rem;
+  /* color: #877D74; */
+  color: #BBC2CC;
+  font-family: 'Tangerine', cursive;
+  /* font-weight: 200; */
+  /* line-height: 10rem; */
+  /* height: 35px; */
+  /* margin-top: 50px; */
+  /* margin: 0; */
+  text-align: center;
+}
+
+/* ----------testing resume.css in resumeGrid.css to clean up and understand the code----------------- */
+/* **-----------------------"Dreamers are the..."------------------** */
+.resumeSubtitle {
+  font-family: 'Tangerine', cursive;
+  color: #BBC2CC;
+  /* color: #877D74; */
+  font-size: 30px;
+  font-weight: 600;
+  /* text-align: right; */
+  /* padding-right: 10%; */
+  /* margin-bottom:  50px; */
+  /* margin-right: 100px; */
+
+  /* ------------------this controls spacing underneath the resumeTitle aka: Scott Patrick Dancer------------- */
+  /* line-height: 9rem; */
+
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+/* ----------testing resume.css in resumeGrid.css to clean up and understand the code----------------- */
+/* **-----------------------Portfolio Headshot------------------** */
+.profilePic {
+  width: 150px;
+  height: 185px;
+  border-radius: 100%;
+  /* border: 3px solid #877D74; */
+  border: 3px solid #BBC2CC;
+  filter: grayscale(77%);
+
+}
+
