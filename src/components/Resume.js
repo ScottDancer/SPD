@@ -18,8 +18,6 @@ export default class Resume extends Component {
                 <cite>- James Allen</cite>
               </p>
               <div className="hero"></div>
-              {/* <img src = {Hero} className="Hero" alt ="glowing laptop"></img> */}
-              {/* <img src = {FacePic} className="profilePic" alt ="headshot"></img> */}
             </div>
 
 
