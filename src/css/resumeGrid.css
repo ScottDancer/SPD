@@ -1,6 +1,8 @@
 body {
-  /* background-color: teal; */
+  background-color: teal;
   /* background-color: black; */
+  margin: 0;
+  padding: 0;
 }
 
 /* ----------testing resume.css in resumeGrid.css to clean up and understand the code----------------- */
@@ -9,11 +11,32 @@ body {
 .hero {
   background-image: url("../images/hero-comp.jpg");
   background-size: cover;
-  /* background-position: center center; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+
   /* justify-content: center; */
+  /* position: absolute; */
+  /* right: 0; */
+  width: 100%;
+  min-height: 100vh;
+
+
+  /* ------------I don't think I need this padding---------- */
+  /* padding: 100px; */
+
+
+  /* ------------This adds a space between resumeTitle and resumeSubtitle, why???---------- */
+  /* justify-content: space-between; */
+
+
+  /* -----Aligning the resumeTitle and resumeSubtitle (May need to be removed)---------------- */
+  align-items: center;
+
+
+ 
+  /* -----I don't believe I need this until I decide to play around with a cool transition for this resume page---------------- */ 
+  /* transition: .5s; */
 
 }
 
@@ -25,22 +48,24 @@ body {
 .resumeTitle {
   font-size: 9rem;
   /* color: #877D74; */
-  color: #BBC2CC;
+  /* color: #BBC2CC; */
+  color: #A8A9AD;
   font-family: 'Tangerine', cursive;
   /* font-weight: 200; */
   /* line-height: 10rem; */
   /* height: 35px; */
   /* margin-top: 50px; */
   /* margin: 0; */
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* ----------testing resume.css in resumeGrid.css to clean up and understand the code----------------- */
 /* **-----------------------"Dreamers are the..."------------------** */
 .resumeSubtitle {
   font-family: 'Tangerine', cursive;
-  color: #BBC2CC;
-  /* color: #877D74; */
+   /* color: #877D74; */
+  /* color: #BBC2CC; */
+  color: #A8A9AD;
   font-size: 30px;
   font-weight: 600;
   /* text-align: right; */
