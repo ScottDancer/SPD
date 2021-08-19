@@ -21,26 +21,26 @@ export default class Resume extends Component {
             </div>
 
 
-            {/* <main id="content" className="mainArea"> */}
+          
               <section className="summary">
-                <div className="summaryContent">
-                  {/* <div className="Headshot"></div> */}
-
+                
                   <img
                     src={FacePic}
                     className="profilePic"
                     alt="headshot"
                   ></img>
 
-                  <p className="summaryText">
-                    Full Stack Web Developer and Graphic Designer with a
-                    background in illustration and cartooning. Possess a strong
-                    foundation in communication, problem solving, and creativity
-                    that lends itself to building applications that are
-                    aesthetically pleasing and meet client expectations. Earned
-                    a Certificate in Web Development from the University of
-                    Washington.
-                  </p>
+                  <div className="summaryText">
+                    <p >
+                      Full Stack Web Developer and Graphic Designer with a
+                      background in illustration and cartooning. Possess a strong
+                      foundation in communication, problem solving, and creativity
+                      that lends itself to building applications that are
+                      aesthetically pleasing and meet client expectations. Earned
+                      a Certificate in Web Development from the University of
+                      Washington.
+                    </p>
+                  </div>
 
                   <div className="contactInfo">
                     <p>Vancouver, WA | (360) 953-7969</p>
@@ -53,9 +53,10 @@ export default class Resume extends Component {
                       https://www.linkedin.com/in/scott-dancer-9744091b2/
                     </p>
                   </div>
-                </div>
+
+               
               </section>
-            {/* </main> */}
+         
         
         </body>
       </>
