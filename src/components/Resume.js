@@ -9,7 +9,7 @@ export default class Resume extends Component {
       <>
         <body className="site">
           <div id="header">
-            <div className="resume hero">
+            <div className="resumeHero">
               <h1 className="resumeTitle"> Scott Patrcick Dancer</h1>
               <p className="resumeSubtitle">
                 <q>The dreamers are the saviors of the wolrd.</q>

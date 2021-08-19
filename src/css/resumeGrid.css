@@ -8,7 +8,7 @@ body {
 /* ----------testing resume.css in resumeGrid.css to clean up and understand the code----------------- */
 /* **-----------------------Rainbow Laptop Image------------------** */
 
-.hero {
+.resumeHero {
   background-image: url("../images/hero-comp.jpg");
   background-size: cover;
   background-position: center center;
