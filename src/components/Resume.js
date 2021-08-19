@@ -8,17 +8,22 @@ export default class Resume extends Component {
     return (
       <>
         <body className="site">
-          <div id="header">
+          
             <div className="resumeHero">
+            
               <h1 className="resumeTitle"> Scott Patrcick Dancer</h1>
+              
               <p className="resumeSubtitle">
                 <q>The dreamers are the saviors of the wolrd.</q>
                 <cite>- James Allen</cite>
               </p>
+              <div className="hero"></div>
               {/* <img src = {Hero} className="Hero" alt ="glowing laptop"></img> */}
               {/* <img src = {FacePic} className="profilePic" alt ="headshot"></img> */}
             </div>
-            <main id="content" className="mainArea">
+
+
+            {/* <main id="content" className="mainArea"> */}
               <section className="summary">
                 <div className="summaryContent">
                   {/* <div className="Headshot"></div> */}
@@ -52,8 +57,8 @@ export default class Resume extends Component {
                   </div>
                 </div>
               </section>
-            </main>
-          </div>
+            {/* </main> */}
+        
         </body>
       </>
     );

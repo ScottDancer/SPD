@@ -1,14 +1,20 @@
 body {
-  background-color: teal;
+  /* background-color: teal; */
   /* background-color: black; */
   margin: 0;
   padding: 0;
 }
 
+
+/* ----------testing resume.css in resumeGrid.css to clean up and understand the code----------------- */
+/* **-----------------------resumeHero is the div that holds hero, resumeTitle and resumeSubtitle------------------** */
+
+
+
 /* ----------testing resume.css in resumeGrid.css to clean up and understand the code----------------- */
 /* **-----------------------Rainbow Laptop Image------------------** */
 
-.resumeHero {
+.hero {
   background-image: url("../images/hero-comp.jpg");
   background-size: cover;
   background-position: center center;
@@ -47,27 +53,47 @@ body {
 
 .resumeTitle {
   font-size: 9rem;
+
+   /* ---------- silver color options ----------------- */
   /* color: #877D74; */
   /* color: #BBC2CC; */
   color: #A8A9AD;
+
+
   font-family: 'Tangerine', cursive;
+  margin: 0;
+
+/* ---------- may not need once I impliment grid ----------------- */
+
   /* font-weight: 200; */
   /* line-height: 10rem; */
   /* height: 35px; */
   /* margin-top: 50px; */
   /* margin: 0; */
   /* text-align: center; */
+
+
 }
 
 /* ----------testing resume.css in resumeGrid.css to clean up and understand the code----------------- */
 /* **-----------------------"Dreamers are the..."------------------** */
+
 .resumeSubtitle {
   font-family: 'Tangerine', cursive;
+
+
+  /* ---------- silver color options ----------------- */
    /* color: #877D74; */
   /* color: #BBC2CC; */
   color: #A8A9AD;
+
+
   font-size: 30px;
   font-weight: 600;
+   margin: 0;
+
+
+
   /* text-align: right; */
   /* padding-right: 10%; */
   /* margin-bottom:  50px; */
@@ -81,14 +107,36 @@ body {
   /* align-items: center; */
 }
 
+
+
+
+
+
 /* ----------testing resume.css in resumeGrid.css to clean up and understand the code----------------- */
-/* **-----------------------Portfolio Headshot------------------** */
+
+/* **-----This Next Section is className .summary this includes .profilePic, .summaryText, .contactInfo-------** */
+
+/* **-------------------------------.summary------------------------------** */
+
+.summary {
+  background-color: black;
+  color: white;
+}
+
+/* **--------------------------Portfolio Headshot (.profilePic)------------------------** */
+
 .profilePic {
   width: 150px;
   height: 185px;
   border-radius: 100%;
+
+  /* ---------- silver color options ----------------- */
+ 
   /* border: 3px solid #877D74; */
-  border: 3px solid #BBC2CC;
+  /* border: 3px solid #BBC2CC; */
+  border: 3px solid #A8A9AD;
+
+
   filter: grayscale(77%);
 
 }

@@ -1,7 +1,7 @@
 /* UPDATED COLOR PALETTE
 #131314 - deep dark grey (almost black)
 #F8F9FA - very light grey (almost white)
-#BBC2CC - silver grey
+#BBC2CC - silver grey (added more options in code)
 #CCC5BB - complmmentary to the sliver grey
 
 /* (Resume) Global Styles
@@ -103,25 +103,25 @@ html {
 }
 
 /* **-----------------------Portfolio Headshot------------------** */
-.profilePic {
+/* .profilePic {
   width: 150px;
   height: 185px;
   border-radius: 100%;
   border: 3px solid #877D74;
   filter: grayscale(77%);
   background: cornflowerblue;
-}
+} */
 
 /* **-----------------------"Full Stack Web..."------------------** */
-.summaryText {
+/* .summaryText {
   text-align: center;
   color: white;
   background: cornflowerblue;
-}
+} */
 
 /* **--------------------Contact Information & Links---------------** */
-
+/* 
 .contactInfo {
   color: coral;
   background: white;
-}
+} */
