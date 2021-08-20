@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import FacePic from "../images/headshot.jpg";
+import pdfLogo from "../images/pdfLogo.jpg";
+
 
 // import Hero from "../images/hero-comp.jpg"
 
@@ -53,6 +55,12 @@ export default class Resume extends Component {
                       https://www.linkedin.com/in/scott-dancer-9744091b2/
                     </p>
                   </div>
+
+                  <img
+                    src={pdfLogo}
+                    className="pdfLogo"
+                    alt="shiny red pdf logo"
+                  ></img>
 
                
               </section>
