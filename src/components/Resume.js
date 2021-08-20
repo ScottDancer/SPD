@@ -29,7 +29,7 @@ export default class Resume extends Component {
                     className="profilePic"
                     alt="headshot"
                   ></img>
-
+                  <h2 className="heading headingOne">Graphic & Web Designer/Developer</h2>
                   <div className="summaryText">
                     <p >
                       Full Stack Web Developer and Graphic Designer with a
