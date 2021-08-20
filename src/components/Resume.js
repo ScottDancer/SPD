@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import FacePic from "../images/headshot.jpg";
 import pdfLogo from "../images/pdfLogo.jpg";
+import heroComputer from "../images/heroComputer.jpg";
 
 
 // import Hero from "../images/hero-comp.jpg"
@@ -12,14 +13,18 @@ export default class Resume extends Component {
         <body className="site">
           
             <div className="resumeHero">
-            
+          
               <h1 className="resumeTitle"> Scott Patrcick Dancer</h1>
               
               <p className="resumeSubtitle">
                 <q>The dreamers are the saviors of the wolrd.</q>
                 <cite>- James Allen</cite>
               </p>
-              <div className="hero"></div>
+              <img
+                    src={heroComputer}
+                    className="hero"
+                    alt="rainbow laptop"
+                  ></img>
             </div>
 
 
