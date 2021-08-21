@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import FacePic from "../images/headshot.jpg";
 import pdfLogo from "../images/pdfLogo.jpg";
-import heroComputer from "../images/heroComputer.jpg";
+import heroComputerd from "../images/heroComputerd.jpg";
 
 
-// import Hero from "../images/hero-comp.jpg"
 
 export default class Resume extends Component {
   render() {
@@ -21,7 +20,7 @@ export default class Resume extends Component {
                 <cite>- James Allen</cite>
               </p>
               <img
-                    src={heroComputer}
+                    src={heroComputerd}
                     className="hero"
                     alt="rainbow laptop"
                   ></img>
