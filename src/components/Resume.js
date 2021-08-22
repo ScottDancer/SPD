@@ -5,6 +5,7 @@ import heroComputerd from "../images/heroComputerd.jpg";
 import linkedinLogo from "../images/linkedinLogo.jpg";
 import cuteGithubLogo from "../images/cuteGithubLogo.png";
 import pdxCodeLogo from "../images/pdxCodeLogo.png";
+import coloredPencils from "../images/coloredPencils.jpg";
 
 
 
@@ -79,7 +80,12 @@ export default class Resume extends Component {
         <div class="content-wrap">
         <h2>Education</h2>
 
-        
+        <img
+              src={coloredPencils}
+              className="educationBackground"
+              alt="a row of colored pencils"
+            ></img>
+            
         <section>
           <section class="education-logos">
           {/* <!-- <img src=images/UW-logo.png alt="University of Washington Logo"> --> */}

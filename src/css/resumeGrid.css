@@ -219,6 +219,13 @@ body {
 /* **-----This Next div is className .volunteer this includes .volunteer-------** */
 /* **----------whole volunteer area ( section className .volunteer )-----------** */
 
+
+
+
+
+/* **-----This Next div is className .volunteer this includes .volunteer-------** */
+/* **----------whole volunteer area ( section className .volunteer )-----------** */
+
 .volunteer {
   display: grid;
   grid-template-columns:  20% 30% 30% 20%;
