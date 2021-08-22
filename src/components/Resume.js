@@ -51,7 +51,9 @@ export default class Resume extends Component {
                   <div className="contactInfo">
                     <p>Vancouver, WA</p>
                     <p>(360) 953-7969</p>
-                    <p>scottpdancer@gmail.com</p>
+                    <ul>
+                     <li><a href="mailto:scottpdancer@gmail.com">scottpdancer@gmail.com</a></li>
+                    </ul>
                     {/* <p>GitHub: https://github.com/ScottDancer</p> */}
                     {/* <p> Portfolio: https://scottpatrickdancer.com</p> */}
                     {/* <p>
@@ -69,9 +71,26 @@ export default class Resume extends Component {
 
                
               </section>
+
+
+
+
+      <footer className="footer">
+        <div class="content-wrap">
+        <h2>Create with me!</h2>
+
+      
+        <ul class="contact-list">
+     
          
+          {/* <li class="contact-links"><a href="https://www.linkedin.com/in/scott-dancer-9744091b2/"><img src=images/linked-in-logo.jpg alt="Round 3d looking LinkedIn Logo">LinkedIn</a></li> */}
+          {/* <li class="contact-links"><a href=" https://github.com/ScottDancer" ><img src=images/cute-github-logo.png alt="Cute cartoon Github Logo">Github</a></li> */}
+        </ul>
+        </div>
+      </footer>
         
-        </body>
+
+    </body>
       </>
     );
   }
