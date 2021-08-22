@@ -52,7 +52,7 @@ export default class Resume extends Component {
                     <p>Vancouver, WA</p>
                     <p>(360) 953-7969</p>
                     <ul>
-                     <li><a href="mailto:scottpdancer@gmail.com">scottpdancer@gmail.com</a></li>
+                      <li><a href="mailto:scottpdancer@gmail.com">scottpdancer@gmail.com</a></li>
                     </ul>
                     {/* <p>GitHub: https://github.com/ScottDancer</p> */}
                     {/* <p> Portfolio: https://scottpatrickdancer.com</p> */}
@@ -83,8 +83,8 @@ export default class Resume extends Component {
         <ul class="contact-list">
      
          
-          {/* <li class="contact-links"><a href="https://www.linkedin.com/in/scott-dancer-9744091b2/"><img src=images/linked-in-logo.jpg alt="Round 3d looking LinkedIn Logo">LinkedIn</a></li> */}
-          {/* <li class="contact-links"><a href=" https://github.com/ScottDancer" ><img src=images/cute-github-logo.png alt="Cute cartoon Github Logo">Github</a></li> */}
+          <li class="contact-links"><a href="https://www.linkedin.com/in/scott-dancer-9744091b2/">LinkedIn</a></li>
+          <li class="contact-links"><a href=" https://github.com/ScottDancer">Github</a></li>
         </ul>
         </div>
       </footer>
