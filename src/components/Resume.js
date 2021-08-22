@@ -76,16 +76,18 @@ export default class Resume extends Component {
 
 
       <footer className="footer">
-        <div class="content-wrap">
+        <div class="footerContent">
         <h2>Create with me!</h2>
 
       
-        <ul class="contact-list">
+        <ul class="footerContactList">
      
-         
-          <li class="contact-links"><a href="https://www.linkedin.com/in/scott-dancer-9744091b2/">LinkedIn</a></li>
-          <li class="contact-links"><a href=" https://github.com/ScottDancer">Github</a></li>
+          <li class="footerContactLinks"><a href="https://www.linkedin.com/in/scott-dancer-9744091b2/">LinkedIn</a></li>
+
+          <li class="footerContactLinks"><a href=" https://github.com/ScottDancer">Github</a></li>
+
         </ul>
+
         </div>
       </footer>
         
