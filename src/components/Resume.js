@@ -4,6 +4,7 @@ import pdfLogo from "../images/pdfLogo.jpg";
 import heroComputerd from "../images/heroComputerd.jpg";
 import linkedinLogo from "../images/linkedinLogo.jpg";
 import cuteGithubLogo from "../images/cuteGithubLogo.png";
+import pdxCodeLogo from "../images/pdxCodeLogo.png";
 
 
 
@@ -70,6 +71,22 @@ export default class Resume extends Component {
             ></img>
           </section>
 
+         
+        <div class="volunteer">
+          <h2>Volunteer Work</h2>
+          <section>
+          <img
+                      src={pdxCodeLogo}
+                      className="pdxCodeLogo"
+                      alt="teal and white rose logo for code for pdx"
+                    ></img>
+            <h3>Code for PDX - Portland, OR</h3>
+            <p>Web Designer and Developer</p>
+            <p>2021</p>
+            </section>
+        </div>
+        
+
           <footer className="footer">
             <div class="footerContent">
               <h2>Create with me!</h2>
@@ -100,6 +117,8 @@ export default class Resume extends Component {
               </ul>
             </div>
           </footer>
+
+
         </body>
       </>
     );
