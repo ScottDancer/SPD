@@ -29,7 +29,7 @@ export default class Resume extends Component {
 
           
               <section className="summary">
-              <h2 className="heading .headingSummary">Graphic & Web Designer/Developer</h2>
+              <h2 className="heading headingSummary">Graphic & Web Designer/Developer</h2>
                   <img
                     src={FacePic}
                     className="profilePic"
@@ -49,15 +49,16 @@ export default class Resume extends Component {
                   </div>
 
                   <div className="contactInfo">
-                    <p>Vancouver, WA | (360) 953-7969</p>
-                    <p>Email: scottpdancer@gmail.com</p>
-                    <p>GitHub: https://github.com/ScottDancer</p>
-                    <p> Portfolio: https://scottpatrickdancer.com</p>
-                    <p>
+                    <p>Vancouver, WA</p>
+                    <p>(360) 953-7969</p>
+                    <p>scottpdancer@gmail.com</p>
+                    {/* <p>GitHub: https://github.com/ScottDancer</p> */}
+                    {/* <p> Portfolio: https://scottpatrickdancer.com</p> */}
+                    {/* <p>
                       {" "}
                       LinkedIn:
                       https://www.linkedin.com/in/scott-dancer-9744091b2/
-                    </p>
+                    </p> */}
                   </div>
 
                   <img
