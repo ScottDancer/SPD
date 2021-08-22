@@ -74,16 +74,16 @@ export default class Resume extends Component {
          
         <div class="volunteer">
           <h2>Volunteer Work</h2>
-          <section>
+        
           <img
                       src={pdxCodeLogo}
                       className="pdxCodeLogo"
                       alt="teal and white rose logo for code for pdx"
                     ></img>
-            <h3>Code for PDX - Portland, OR</h3>
-            <p>Web Designer and Developer</p>
-            <p>2021</p>
-            </section>
+            <h3 className="volunteerText">Code for PDX - Portland, OR</h3>
+            <p className="volunteerTextA">Web Designer and Developer</p>
+            <p className="volunteerTextB">2021</p>
+           
         </div>
         
 

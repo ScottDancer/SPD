@@ -100,7 +100,7 @@ body {
 
 .summary {
   /* background-color:rgb(153, 143, 143); */
-  background-color:black;
+  /* background-color:black; */
   /* border-top: 5px solid red; */
   /* border: 5px solid red; */
 
@@ -215,6 +215,51 @@ body {
   /* margin-top: 10%; */
   
 }
+
+/* **-----This Next div is className .volunteer this includes .volunteer-------** */
+/* **----------whole volunteer area ( section className .volunteer )-----------** */
+
+.volunteer {
+  display: grid;
+  grid-template-columns:  20% 30% 30% 20%;
+  grid-gap: 1.5em;
+  border: 5px solid red;
+}
+
+.volunteer h2{
+  grid-column: 2 / 4;
+  padding-top: 2%;
+}
+
+.volunteer img{
+  grid-row: 1 /6;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: 25%;
+  grid-column: 1 / 2; 
+}
+
+.volunteerText{
+  grid-column: 2 / 3; 
+  grid-row: 2 /4;
+  
+}
+
+.volunteerTextA{
+  grid-column: 2 / 3; 
+  grid-row: 3/4;
+  
+}
+
+.volunteerTextB{
+  grid-column: 3 / 4; 
+  grid-row: 3/4;
+  text-align: right;
+  
+}
+
+
+
 
 
 /* **-----This Next Section is className .footer this includes .footerContent, .footerContactList, .contactLinks-------** */
