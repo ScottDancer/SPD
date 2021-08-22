@@ -1,127 +1,300 @@
-/* UPDATED COLOR PALETTE
-#131314 - deep dark grey (almost black)
+/* *-----------UPDATED COLOR PALETTE-------------* */
+
+
+/* #131314 - deep dark grey (almost black)
 #F8F9FA - very light grey (almost white)
 #BBC2CC - silver grey (added more options in code)
-#CCC5BB - complmmentary to the sliver grey
+#CCC5BB - complmmentary to the sliver grey */
 
-/* (Resume) Global Styles
----------------------------------------------------- */
+
+
+/* *-----------Resume page's Global Styles-------------* */
+
+
 html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
   padding: 0;
-  margin: 0 ;
-
-
-}
-/* *-----------------------------------------------* */
-/* (Resume) Hero - Landing page
----------------------------------------------------- */
-
-
-/* #header {
-  padding: 0;
-  margin: 0; 
-  display: grid;
-  grid-template-columns: 6fr 1fr 1fr 1fr;
-  grid-template-rows: 100% 400px;
-  grid-template-areas: "header header header resumeTitle "
-    "image summary summary contact"; 
-  grid-gap: 10px;
-
-
-} */
-
-/* header{
-  grid-area: header;
-  padding: 0;
-  margin: 0; 
-} */
-
-/* img{
-  padding: 0;
   margin: 0;
-  background-size: cover;
-  background-position: center center;
-  grid-area: image;
-  height: 100%;  
-} */
-
-/* .summaryText {
-  grid-area: summary;
-} */
-
-/* .contactInfo {
-  grid-area: contact;
-} */
-/* **-----------------------Rainbow Laptop Image------------------** */
-
-.hero {
-  background-image: url("../images/hero-comp.jpg");
-  background-size: cover;
-  background-position: center center;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* justify-content: center; */
-
 }
 
 
-/* **-----------------------Scott Patrick Dancer------------------** */
+/* *-----------Resume page's landing page ( body className .site )-------------* */
+
+
+body {
+  /* background-color: teal; */
+  /* background-color: black; */
+
+  font-family: 'Raleway', sans-serif;
+
+  
+}
+
+/* **------resumeHero is the div that holds hero, resumeTitle and resumeSubtitle-----** */
+/* *-----------"Scott Patrick Dancer" ( div className .resumeTitle )----------* */
+
 
 .resumeTitle {
   font-size: 9rem;
-  color: #877D74;
+
+   /* ---------- silver color options ----------------- */
+  /* color: #877D74; */
+  /* color: #BBC2CC; */
+  color: #A8A9AD;
+
+
   font-family: 'Tangerine', cursive;
-  font-weight: 200;
-  line-height: 10rem;
-  height: 35px;
-  /* margin-top: 50px; */
   margin: 0;
-  text-align: center;
+
+/* ---------- may not need once I impliment grid ----------------- */
+
+  /* font-weight: 200; */
+  /* line-height: 10rem; */
+  /* height: 35px; */
+  /* margin-top: 50px; */
+  /* margin: 0; */
+  /* text-align: center; */
+
 
 }
 
-/* **-----------------------"Dreamers are the..."------------------** */
+
+
+/* *----------"Dreamers are the..." ( div className .resumeSubtitle )--------* */
+
 
 .resumeSubtitle {
   font-family: 'Tangerine', cursive;
-  color: #877D74;
+
+
+  /* ---------- silver color options ----------------- */
+   /* color: #877D74; */
+  /* color: #BBC2CC; */
+  color: #A8A9AD;
+
+
   font-size: 30px;
   font-weight: 600;
-  text-align: right;
-  padding-right: 10%;
-  margin-bottom:  50px;
-  margin-right: 100px;
-  line-height: 9rem;
+   margin: 0;
+
+
+
+  /* text-align: right; */
+  /* padding-right: 10%; */
+  /* margin-bottom:  50px; */
+  /* margin-right: 100px; */
+
+  /* ------------------this controls spacing underneath the resumeTitle aka: Scott Patrick Dancer------------- */
+  /* line-height: 9rem; */
+
   /* display: flex; */
   /* justify-content: center; */
   /* align-items: center; */
 }
 
-/* **-----------------------Portfolio Headshot------------------** */
-/* .profilePic {
+
+
+/* *----------Rainbow Laptop Image ( div className .hero )--------* */
+
+
+.hero {
+  /* background-image: url(../images/heroComputer.jpg); */
+
+  
+    /* background-size: cover;
+    width: 100vw;
+    margin: none;
+    background-position: center center;
+    min-height: 100vh; */
+   
+    /* background: no-repeat center center fixed;  */
+
+ 
+  
+
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: auto 100%;
+    width: 100vw;
+    height: auto;
+
+
+    /* background-size: 100% 50%; */
+    /* height: 100%; */
+    /* overflow: hidden; */
+   
+
+
+ 
+
+
+ 
+  /* -----I don't believe I need this until I decide to play around with a cool transition for this resume page---------------- */ 
+  /* transition: .5s; */
+
+}
+
+
+
+
+
+/* **-----This Next Section is className .summary this includes .profilePic, .summaryText, .contactInfo-------** */
+/* **--------------whole summary area ( section className .summary )------------** */
+
+
+.summary {
+  /* background-color: blue; */
+  color: white;
+}
+
+
+
+/* **--------"Graphic & Web Designer..." ( h2 className .heading .headingSummary )--------** */
+
+
+.heading, .headingSummary {
+  color:#877D74;
+  font-size: 2.22rem;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+
+/* **--------------Portfolio Headshot ( img className .profilePic )------------------------** */
+
+
+.profilePic {
   width: 150px;
   height: 185px;
   border-radius: 100%;
-  border: 3px solid #877D74;
+
+  /* ---------- silver color options ----------------- */
+  /* border: 3px solid #877D74; */
+  /* border: 3px solid #BBC2CC; */
+  border: 3px solid #A8A9AD;
+
+
   filter: grayscale(77%);
-  background: cornflowerblue;
-} */
 
-/* **-----------------------"Full Stack Web..."------------------** */
-/* .summaryText {
+}
+
+
+
+
+/* **-------"Full Stack Web..." ( div className .summaryText )--------** */
+
+
+.summaryText {
+
+}
+
+
+
+
+
+
+
+/* **-----------Contact Information & Links (div className .contactInfo )--------------** */
+
+
+
+
+
+
+
+
+
+/* **-----------shiny red pdf logo ( img className .pdfLogo )--------------** */
+
+
+.pdfLogo {
+  margin-bottom: 25px;
+  width: 30px;
+  border-radius: 25%;
+  border: .5px solid hsl(219, 37.2%, 94.1%);
+  padding-top: 0; 
+}
+
+
+
+
+
+
+/* **-----This Next Section is className .footer this includes .footerContent, .footerContactList, .contactLinks-------** */
+/* **--------------whole footer area ( section className .footer )------------** */
+
+.footer {
+  background-color:white;
+  padding: 0;
   text-align: center;
-  color: white;
-  background: cornflowerblue;
-} */
 
-/* **--------------------Contact Information & Links---------------** */
-/* 
-.contactInfo {
-  color: coral;
-  background: white;
-} */
+}
+
+.footer ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+/* **--------------div footer area ( section className .footerContent )------------** */
+
+.footerContent {
+
+}
+
+.footerContent h2{
+  color:#877D74;
+  font-size: 2.22rem;
+  /* text-align: center; */
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+/* **--------------ul in footer area ( section className .footerContactList )------------** */
+
+.footerContactList a{
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color:#5A948E;
+  font-size:12px;
+  font-weight: 700;
+  
+
+
+}
+
+.footerContactList a:hover{
+  transform: scale(0.5);
+  transition: 0.5s;
+  transform: scale(1.1) translateY(-15px);
+  color: #F7A865;
+
+}
+
+.imgLinkedinLogo, .imgGithubLogo {
+  width: 60px;
+  height: 55px;
+  display: flex;
+
+}
+
+/* **--------------li in footer area ( section className .footerContactLinks )------------** */
+
+.footerContactLinks {
+  
+}

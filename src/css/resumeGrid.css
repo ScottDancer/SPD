@@ -1,110 +1,58 @@
+/* *-----------Resume page's landing page - ( body className .site )-------------* */
+
+
 body {
-  /* background-color: teal; */
+  background-color: teal;
   /* background-color: black; */
-  margin: 0;
-  padding: 0;
+
 }
 
 
-/* ----------testing resume.css in resumeGrid.css to clean up and understand the code----------------- */
-/* **-----------------------resumeHero is the div that holds hero, resumeTitle and resumeSubtitle------------------** */
+/* **-----resumeHero is the div that holds hero, resumeTitle and resumeSubtitle------** */
 
 
+.resumeHero {
 
-/* ----------testing resume.css in resumeGrid.css to clean up and understand the code----------------- */
-/* **-----------------------Rainbow Laptop Image------------------** */
+  /* border: 15px solid blue; */
 
-.hero {
-  background-image: url("../images/hero-comp.jpg");
-  background-size: cover;
-  background-position: center center;
-  display: flex;
-  flex-direction: column;
-
-  /* justify-content: center; */
-  /* position: absolute; */
-  /* right: 0; */
-  width: 100%;
-  min-height: 100vh;
-
-
-  /* ------------I don't think I need this padding---------- */
-  /* padding: 100px; */
-
-
-  /* ------------This adds a space between resumeTitle and resumeSubtitle, why???---------- */
-  /* justify-content: space-between; */
-
-
-  /* -----Aligning the resumeTitle and resumeSubtitle (May need to be removed)---------------- */
-  align-items: center;
-
-
+  display: grid;
+  grid-template-columns:  20% 30% 30% 20%;
+  /* grid-template-rows: 20% 10% 50% 20%; */
+  grid-gap: 1.5em;
  
-  /* -----I don't believe I need this until I decide to play around with a cool transition for this resume page---------------- */ 
-  /* transition: .5s; */
+
+
+
 
 }
 
+/* *-----------"Scott Patrick Dancer" ( div className .resumeTitle )----------* */
 
 
-/* ----------testing resume.css in resumeGrid.css to clean up and understand the code----------------- */
-/* **-----------------------"Scott Patrick Dancer"------------------** */
 
 .resumeTitle {
-  font-size: 9rem;
-
-   /* ---------- silver color options ----------------- */
-  /* color: #877D74; */
-  /* color: #BBC2CC; */
-  color: #A8A9AD;
-
-
-  font-family: 'Tangerine', cursive;
-  margin: 0;
-
-/* ---------- may not need once I impliment grid ----------------- */
-
-  /* font-weight: 200; */
-  /* line-height: 10rem; */
-  /* height: 35px; */
-  /* margin-top: 50px; */
-  /* margin: 0; */
-  /* text-align: center; */
-
+  grid-column: 1 / 5;
+  justify-content: center;
+  text-align: center;
+  grid-row: 1/2;
+  z-index: 2;
+  padding-top: 5%;
 
 }
 
-/* ----------testing resume.css in resumeGrid.css to clean up and understand the code----------------- */
-/* **-----------------------"Dreamers are the..."------------------** */
+
+
+
+
+
+
+/* **--------"Dreamers are the..." ( div className .resumeSubtitle )-----------** */
 
 .resumeSubtitle {
-  font-family: 'Tangerine', cursive;
-
-
-  /* ---------- silver color options ----------------- */
-   /* color: #877D74; */
-  /* color: #BBC2CC; */
-  color: #A8A9AD;
-
-
-  font-size: 30px;
-  font-weight: 600;
-   margin: 0;
-
-
-
-  /* text-align: right; */
-  /* padding-right: 10%; */
-  /* margin-bottom:  50px; */
-  /* margin-right: 100px; */
-
-  /* ------------------this controls spacing underneath the resumeTitle aka: Scott Patrick Dancer------------- */
-  /* line-height: 9rem; */
-
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
+  grid-column: 2 / 4;
+  text-align: right;
+  grid-row: 2 / 3;
+  z-index: 2;
 }
 
 
@@ -112,32 +60,191 @@ body {
 
 
 
-/* ----------testing resume.css in resumeGrid.css to clean up and understand the code----------------- */
+
+
+
+
+
+/* **-------Rainbow Laptop Image ( div className .hero )--------------** */
+
+
+
+
+.hero {
+  display:grid;
+  grid-column: 1 / 5;
+  grid-row: 1 / 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* **-----This Next Section is className .summary this includes .profilePic, .summaryText, .contactInfo-------** */
+/* **-------------whole summary area ( section className .summary )------------** */
 
-/* **-------------------------------.summary------------------------------** */
 
 .summary {
-  background-color: black;
-  color: white;
+  /* background-color:rgb(153, 143, 143); */
+  background-color:black;
+  /* border-top: 5px solid red; */
+  /* border: 5px solid red; */
+
+
+  display: grid;
+  grid-template-columns:  20% 30% 30% 20%;
+  grid-gap: 1.5em;
+
+   /* grid-template-rows: 20% 10% 50% 20%; */
 }
 
-/* **--------------------------Portfolio Headshot (.profilePic)------------------------** */
+
+
+/* **--------"Graphic & Web Designer..." ( h2 className .heading .headingSummary )--------** */
+
+
+.headingSummary {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2%;
+
+
+}
+
+
+
+
+
+
+
+/* **-------Portfolio Headshot ( img className .profilePic)------** */
+
 
 .profilePic {
-  width: 150px;
-  height: 185px;
-  border-radius: 100%;
+  grid-column: 1 / 2;
+  grid-row: 1 /4;
+  margin-top: 20px;
+  margin-left: 20%;
+}
 
-  /* ---------- silver color options ----------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* **-------"Full Stack Web..." ( div className .summaryText )--------** */
+
+
+
+
+.summaryText {
+  grid-column: 2 / 4;
+  text-align: justify;
+  
+}
+
+
+
+
+
+
+/* **-------Contact Information & Links ( div className .contactInfo )-----** */
+
+
+
+.contactInfo {
+
+  grid-column: 2 / 4;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 3%;
+  /* list-style-type: none;
+  text-decoration: none; */
+  
+}
+
+.contactInfo ul {
+
+  list-style-type: none;
+
  
-  /* border: 3px solid #877D74; */
-  /* border: 3px solid #BBC2CC; */
-  border: 3px solid #A8A9AD;
+}
+
+.contactInfo a {
+
+  
+  text-decoration: none;
+  color:#877D74;
+  /* color: red; */
+}
 
 
-  filter: grayscale(77%);
+
+
+/* **-----------shiny red pdf logo ( img className .pdfLogo )--------------** */
+
+.pdfLogo {
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+  margin-left: 25%;
+  /* margin-top: 10%; */
+  
+}
+
+
+/* **-----This Next Section is className .footer this includes .footerContent, .footerContactList, .contactLinks-------** */
+/* **--------------whole footer area ( section className .footer )------------** */
+
+.footer {
+  display: grid;
+  grid-template-columns:  20% 30% 30% 20%;
+  grid-gap: 1.5em;
+}
+
+/* **--------------div footer area ( section className .footerContent )------------** */
+
+.footerContent {
+  grid-column: 2 /4;
+}
+
+.footerContent h2{
+  padding-top: 2%;
+ 
+}
+
+/* **--------------ul in footer area ( section className .footerContactList )------------** */
+
+.footerContactList {
 
 }
 
+/* **--------------li in footer area ( section className .footerContactLinks )------------** */
+
+.footerContactLinks {
+  
+}
