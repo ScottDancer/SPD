@@ -76,8 +76,8 @@ export default class Resume extends Component {
 
 
 
-      <section class="education">
-        <div class="content-wrap">
+      <section className="education">
+        <div classname="educationContent">
         <h2>Education</h2>
 
         <img
@@ -87,28 +87,28 @@ export default class Resume extends Component {
             ></img>
             
         <section>
-          <section class="education-logos">
+          <section className="educationLogos">
           {/* <!-- <img src=images/UW-logo.png alt="University of Washington Logo"> --> */}
           <h3>University of Washington - Seattle, WA</h3> 
           <p>Certificate in Web Development, 2020</p>
           <p>A 12-week intensive program focused on gaining technical programming skills in HTML5, CSS3, JavaScript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS. </p>
           </section>
 
-          <section class="education-logos">
+          <section className="educationLogos">
           {/* <!-- <img src=images/SDCE-logo.png alt="San Diego Continuing Education Logo"> --> */}
           <h3>San Diego Continuing Education - San Diego, CA</h3>
           <p>Certificate in Digital Design, 2017</p>
           <p>A 12-month multimedia course with focus on the Adobe Creative Cloud Suite.</p>
           </section>
 
-          <section class="education-logos">
+          <section className="educationLogos">
           {/* <!-- <img src=images/MFA-logo.png alt=" School of the Museum of Fine Arts Boston Logo"> --> */}
           <h3> Museum of Fine Arts - Boston, MA</h3>
           <p>Coursework in Art, 2012</p>
           <p>Studied Color Theory, Figure Drawing, Sculpture, and Conceptual Design.</p>
           </section>
 
-          <section class="education-logos last-entry">
+          <section className="educationLogos lastEntry">
           {/* <!-- <img src=images/HES-logo.png alt="University of Washington Logo"> --> */}
           <h3>Harvard Extension School - Cambridge, MA</h3>
           <p>Coursework in Music, 2010</p>
@@ -122,7 +122,7 @@ export default class Resume extends Component {
       </section>
 
          
-        <div class="volunteer">
+        <div className="volunteer">
           <h2>Volunteer Work</h2>
         
           <img

@@ -230,6 +230,36 @@ body {
   padding-top: 0; 
 }
 
+
+
+/* **---This Next section is className .education this includes .education .educationContent .educationBackground .educationLogos-------** */
+/* **----------whole education section ( section className .education )-----------** */
+
+
+.education {
+
+}
+
+.educationContent {
+
+}
+
+.educationBackground {
+
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: auto 100%;
+  width: 100vw;
+  height: auto;
+  
+}
+
+.educationLogos {
+
+}
+
 /* **-----This Next div is className .volunteer this includes .volunteer-------** */
 /* **----------whole volunteer area ( section className .volunteer )-----------** */
 
