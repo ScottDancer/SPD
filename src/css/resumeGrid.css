@@ -249,12 +249,34 @@ body {
    
 }
 
+.educationDetails {
+  background-color: aqua;
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  
+}
+
 .educationLogos {
+  background-color: red;
   /* grid-column: 3 / 4; */
 }
-.uwContent {
-  grid-column: 2 / 4;
-  grid-row: 2 /3 ;
+
+
+.uw {
+  /* background-color: coral; */
+ 
+}
+.sanDiego {
+  /* background-color: coral; */
+
+}
+.mfa {
+  /* background-color: coral; */
+
+}
+.harvardEx {
+  /* background-color: coral; */
+
 }
 
 

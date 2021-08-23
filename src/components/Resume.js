@@ -90,8 +90,8 @@ export default class Resume extends Component {
               alt="a row of colored pencils"
             ></img>
             
-        <section className="uwContent">
-          <section className="educationLogos">
+        <section className="educationDetails">
+          <section className="educationLogos uw">
           <img
                       src={uwLogo}
                       className="uwLogo"
@@ -102,7 +102,7 @@ export default class Resume extends Component {
           <p>A 12-week intensive program focused on gaining technical programming skills in HTML5, CSS3, JavaScript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS. </p>
           </section>
 
-          <section className="educationLogos">
+          <section className="educationLogos sanDiego">
           <img
                       src={sdceLogo}
                       className="sdceLogo"
@@ -113,7 +113,7 @@ export default class Resume extends Component {
           <p>A 12-month multimedia course with focus on the Adobe Creative Cloud Suite.</p>
           </section>
 
-          <section className="educationLogos">
+          <section className="educationLogos mfa">
           <img
                       src={mfaLogo}
                       className="mfaLogo"
@@ -124,7 +124,7 @@ export default class Resume extends Component {
           <p>Studied Color Theory, Figure Drawing, Sculpture, and Conceptual Design.</p>
           </section>
 
-          <section className="educationLogos lastEntry">
+          <section className="educationLogos lastEntry harvardEx">
           <img
                       src={harvardExtensionLogo}
                       className="harvardExtensionLogo"
@@ -136,7 +136,7 @@ export default class Resume extends Component {
           </section>
 
       
-         </section>
+        </section>
         </div>
     
       </section>
