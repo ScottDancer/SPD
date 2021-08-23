@@ -237,8 +237,8 @@ body {
 
 
 .education {
-  color:  #F8F9FA;
-  background-color: #131314
+  color:  #131314;
+  /* background-color: #131314; */
 }
 
 .education h2{
@@ -247,6 +247,7 @@ body {
   /* text-align: center; */
   margin-bottom: 0;
   font-weight: 500;
+  z-index: 2;
 }
 
 .educationContent {

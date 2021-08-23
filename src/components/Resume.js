@@ -90,7 +90,7 @@ export default class Resume extends Component {
               alt="a row of colored pencils"
             ></img>
             
-        <section>
+        <section className="uwContent">
           <section className="educationLogos">
           <img
                       src={uwLogo}
