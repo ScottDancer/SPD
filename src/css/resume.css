@@ -237,7 +237,16 @@ body {
 
 
 .education {
+  color:  #F8F9FA;
+  background-color: #131314
+}
 
+.education h2{
+  color:#877D74;
+  font-size: 2.22rem;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 500;
 }
 
 .educationContent {
@@ -257,8 +266,19 @@ body {
 }
 
 .educationLogos {
-
+  width: 110px;
+  border-bottom: 1px solid #877D74;
 }
+
+.educationLogos img{
+  width: 110px;
+}
+
+.lastEntry {
+  border-bottom: hidden;
+}
+
+
 
 /* **-----This Next div is className .volunteer this includes .volunteer-------** */
 /* **----------whole volunteer area ( section className .volunteer )-----------** */
