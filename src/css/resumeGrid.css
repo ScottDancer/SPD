@@ -13,12 +13,13 @@ body {
 
 .resumeHero {
 
-  /* border: 15px solid blue; */
+  border: 15px solid blue;
 
   display: grid;
   grid-template-columns:  20% 30% 30% 20%;
-  /* grid-template-rows: 20% 10% 50% 20%; */
   grid-gap: 1.5em;
+
+  /* grid-template-rows: 20% 10% 50% 20%; */
  
 
 
@@ -224,18 +225,31 @@ body {
 
 }
 
-.educationContent {
+.education h2{
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2%;
+}
 
+
+
+.educationContent {
+  border: 5px solid blue;
+  display: grid;
+  grid-template-columns:20% 30% 30% 20%;
+  grid-template-rows: 200px 200px 200px 200px 200px;
+  grid-gap: 1.5em;
 }
 
 .educationBackground {
-
- 
-  
+  grid-column: 1 / 5;
+   
 }
 
 .educationLogos {
-
+  grid-column: 3 / 4;
 }
 
 
@@ -254,7 +268,7 @@ body {
   display: grid;
   grid-template-columns:  20% 30% 30% 20%;
   grid-gap: 1.5em;
-  border: 5px solid red;
+  /* border: 5px solid red; */
 }
 
 .volunteer h2{

@@ -244,7 +244,7 @@ body {
 .education h2{
   color:#877D74;
   font-size: 2.22rem;
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 0;
   font-weight: 500;
 }
