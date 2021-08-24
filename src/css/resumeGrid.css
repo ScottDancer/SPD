@@ -2,7 +2,7 @@
 
 
 body {
-  background-color: teal;
+  /* background-color: teal; */
   /* background-color: black; */
 
 }
@@ -229,55 +229,65 @@ body {
 
 
 .education {
+  /* background-color: palegreen; */
+
+  
   /* display: grid;
   background-color: palegreen;
   grid-template-columns:20% 30% 30% 20%;
   grid-template-rows: 100px  100px 400px 400px 223px;
   grid-gap: 1.5em; */
- 
+  
+
   
 }
 
 .education h2{
-  grid-column: 1 / 5;
+
+  /* *--------------------this is good code I think, Just testing ----------* */
+  /* grid-column: 1 / 5;
   grid-row: 1 / 2;
   justify-content: center;
   text-align: center;
-  padding-top: 2%;
+  padding-top: 2%; */
 }
 
+
+
+
+
+.educationContent {
+  border: 5px solid green;
+  /* background-color: cornflowerblue; */
+  
+  /* *--------------------this is good code I think, Just testing ----------* */
+
+
+  /* display: grid;
+  grid-template-columns:20% 30% 30% 20%;
+  grid-gap: 1.5em; */
+ 
+
+}
 .educationBackground {
-  grid-column: 1 / 5;
-  grid-row: 1 / 7;
+  /* grid-column: 1 / 5;
+  grid-row: 1 / 7; */
    
 }
 
 
 
-.educationContent {
-  border: 5px solid blue;
-
-  background-color: cornflowerblue;
-  display: grid;
-  grid-template-columns:20% 30% 30% 20%;
-  grid-template-rows: 100px 200px 200px auto;
-  grid-gap: 1.5em;
- 
-}
-
-
-
 .educationDetails {
-  display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-template-rows: 400px 200px auto;
+  /* display: grid;
+  grid-template-columns: 20% 30% 30% 20%; */
 
-  border: 5px solid blue;
+
+  border: 15px solid blue;
   background-color: aqua;
-  grid-column: 2 / 4;
-  grid-row: 2 / 3;
+  grid-column: 1 / 5;
+  grid-row: 1 / 7;
   grid-gap: 1em;
-  z-index: 4;
+  z-index: -2;
 
   /* display: inline-block; */
   
@@ -291,7 +301,7 @@ body {
 
 .uw {
   background-color: coral;
-  display: grid;
+  /* display: grid; */
   grid-column: 1 / 4;
   grid-row: 1/3;
 }
