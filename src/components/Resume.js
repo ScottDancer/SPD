@@ -74,11 +74,7 @@ export default class Resume extends Component {
           </section>
 
           <section className="education">
-            <img
-              src={coloredPencils}
-              className="educationBackground"
-              alt="a row of colored pencils"
-            ></img>
+       
 
             <div className="educationContent">
               <section className="educationDetails">
@@ -126,7 +122,7 @@ export default class Resume extends Component {
                     Conceptual Design.
                   </p>
                 </section>
-
+         
                 <section className="educationLogos lastEntry harvardEx">
                   <img
                     src={harvardExtensionLogo}
@@ -138,6 +134,12 @@ export default class Resume extends Component {
                   <p>Explored Writing, Music Theory and Composition.</p>
                 </section>
               </section>
+              <img
+              src={coloredPencils}
+              className="educationBackground"
+              alt="a row of colored pencils"
+            ></img>
+            
             </div>
           </section>
 

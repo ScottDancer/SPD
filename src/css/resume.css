@@ -28,10 +28,17 @@ body {
   /* background-color: teal; */
   /* background-color: black; */
 
-  font-family: 'Raleway', sans-serif;
-
-  
+  font-family: 'Raleway', sans-serif;  
 }
+
+
+
+
+
+
+
+
+
 
 /* **------resumeHero is the div that holds hero, resumeTitle and resumeSubtitle-----** */
 /* *-----------"Scott Patrick Dancer" ( div className .resumeTitle )----------* */
@@ -45,20 +52,8 @@ body {
   /* color: #BBC2CC; */
   color: #A8A9AD;
 
-
   font-family: 'Tangerine', cursive;
   margin: 0;
-
-/* ---------- may not need once I impliment grid ----------------- */
-
-  /* font-weight: 200; */
-  /* line-height: 10rem; */
-  /* height: 35px; */
-  /* margin-top: 50px; */
-  /* margin: 0; */
-  /* text-align: center; */
-
-
 }
 
 
@@ -80,19 +75,6 @@ body {
   font-weight: 600;
    margin: 0;
 
-
-
-  /* text-align: right; */
-  /* padding-right: 10%; */
-  /* margin-bottom:  50px; */
-  /* margin-right: 100px; */
-
-  /* ------------------this controls spacing underneath the resumeTitle aka: Scott Patrick Dancer------------- */
-  /* line-height: 9rem; */
-
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
 
@@ -101,20 +83,8 @@ body {
 
 
 .hero {
-  /* background-image: url(../images/heroComputer.jpg); */
-
-  
-    /* background-size: cover;
-    width: 100vw;
-    margin: none;
-    background-position: center center;
-    min-height: 100vh; */
-   
-    /* background: no-repeat center center fixed;  */
 
  
-  
-
     min-height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -124,17 +94,8 @@ body {
     height: auto;
 
 
-    /* background-size: 100% 50%; */
-    /* height: 100%; */
-    /* overflow: hidden; */
-   
-
-
- 
-
-
- 
   /* -----I don't believe I need this until I decide to play around with a cool transition for this resume page---------------- */ 
+  
   /* transition: .5s; */
 
 }
@@ -145,6 +106,7 @@ body {
 
 /* **-----This Next Section is className .summary this includes .profilePic, .summaryText, .contactInfo-------** */
 /* **--------------whole summary area ( section className .summary )------------** */
+
 
 
 .summary {
@@ -169,12 +131,6 @@ body {
 
 
 
-
-
-
-
-
-
 /* **--------------Portfolio Headshot ( img className .profilePic )------------------------** */
 
 
@@ -182,14 +138,12 @@ body {
   width: 150px;
   height: 185px;
   border-radius: 100%;
+  filter: grayscale(77%);
 
   /* ---------- silver color options ----------------- */
   /* border: 3px solid #877D74; */
   /* border: 3px solid #BBC2CC; */
   border: 3px solid #A8A9AD;
-
-
-  filter: grayscale(77%);
 
 }
 
@@ -232,6 +186,12 @@ body {
 
 
 
+
+
+
+
+
+
 /* **---This Next section is className .education this includes .education .educationContent .educationBackground .educationLogos-------** */
 /* **----------whole education section ( section className .education )-----------** */
 
@@ -244,13 +204,15 @@ body {
 .education h2{
   color:#877D74;
   font-size: 2.22rem;
-  /* text-align: center; */
   margin-bottom: 0;
   font-weight: 500;
   z-index: 2;
+
+  /* text-align: center; */
 }
 
 .educationContent {
+
 
 }
 
@@ -323,9 +285,11 @@ body {
 .footerContent h2{
   color:#877D74;
   font-size: 2.22rem;
-  /* text-align: center; */
   margin-bottom: 0;
   font-weight: 500;
+
+   /* text-align: center; */
+
 }
 
 /* **--------------ul in footer area ( section className .footerContactList )------------** */
@@ -338,8 +302,6 @@ body {
   font-size:12px;
   font-weight: 700;
   
-
-
 }
 
 .footerContactList a:hover{

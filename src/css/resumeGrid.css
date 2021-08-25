@@ -9,21 +9,15 @@ body {
 
 
 /* **-----resumeHero is the div that holds hero, resumeTitle and resumeSubtitle------** */
-
+/* **----- whole hero area ( div className .resumeHero ) ------** */
 
 .resumeHero {
 
   /* border: 15px solid blue; */
 
   display: grid;
-  grid-template-columns:  20% 30% 30% 20%;
+  grid-template-columns:  1fr 2fr 2fr 1fr;
   grid-gap: 1.5em;
-
-  /* grid-template-rows: 20% 10% 50% 20%; */
- 
-
-
-
 
 }
 
@@ -43,10 +37,6 @@ body {
 
 
 
-
-
-
-
 /* **--------"Dreamers are the..." ( div className .resumeSubtitle )-----------** */
 
 .resumeSubtitle {
@@ -58,17 +48,7 @@ body {
 
 
 
-
-
-
-
-
-
-
-
 /* **-------Rainbow Laptop Image ( div className .hero )--------------** */
-
-
 
 
 .hero {
@@ -100,17 +80,13 @@ body {
 
 
 .summary {
-  /* background-color:rgb(153, 143, 143); */
-  /* background-color:black; */
   /* border-top: 5px solid red; */
   /* border: 5px solid red; */
 
 
   display: grid;
-  grid-template-columns:  20% 30% 30% 20%;
+  grid-template-columns:  1fr 2fr 2fr 1fr;
   grid-gap: 1.5em;
-
-   /* grid-template-rows: 20% 10% 50% 20%; */
 }
 
 
@@ -124,7 +100,6 @@ body {
   justify-content: center;
   text-align: center;
   padding-top: 2%;
-
 
 }
 
@@ -145,22 +120,7 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* **-------"Full Stack Web..." ( div className .summaryText )--------** */
-
-
 
 
 .summaryText {
@@ -168,8 +128,6 @@ body {
   text-align: justify;
   
 }
-
-
 
 
 
@@ -183,28 +141,22 @@ body {
   grid-column: 2 / 4;
   text-align: center;
   justify-content: center;
-  margin-bottom: 3%;
-  /* list-style-type: none;
-  text-decoration: none; */
-  
+  margin-bottom: 3%; 
 }
 
 .contactInfo ul {
 
   list-style-type: none;
 
- 
 }
 
 .contactInfo a {
-
+  /* color: red; */
   
   text-decoration: none;
   color:#877D74;
-  /* color: red; */
+  
 }
-
-
 
 
 /* **-----------shiny red pdf logo ( img className .pdfLogo )--------------** */
@@ -213,9 +165,12 @@ body {
   grid-column: 4 / 5;
   grid-row: 3 / 4;
   margin-left: 25%;
-  /* margin-top: 10%; */
   
 }
+
+
+
+
 
 
 
@@ -232,13 +187,13 @@ body {
   /* background-color: palegreen; */
 
 
-  /* display: grid;
+  border: 15px solid palevioletred;
   background-color: palegreen;
-  grid-template-columns:20% 30% 30% 20%;
-  grid-template-rows: 100px  100px 400px 400px 223px;
-  grid-gap: 1.5em; */
-  
 
+  
+  /* display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-gap: 1.5em; */
   
 }
 
@@ -261,17 +216,18 @@ body {
   /* background-color: cornflowerblue; */
   
   /* *--------------------this is good code I think, Just testing ----------* */
+  /* grid-column: 1 / 5;
+  grid-row: 1 / 7; */
 
-
-  /* display: grid;
-  grid-template-columns:20% 30% 30% 20%;
-  grid-gap: 1.5em; */
+  display: grid;
+  grid-template-columns:1fr 2fr 2fr 1fr;
+  grid-gap: 1.5em;
  
 
 }
 .educationBackground {
-  /* grid-column: 1 / 5;
-  grid-row: 1 / 7; */
+  grid-column: 1 / 5;
+  grid-row: 1 / 7;
    
 }
 
@@ -279,15 +235,16 @@ body {
 
 .educationDetails {
   /* display: grid;
-  grid-template-columns: 20% 30% 30% 20%; */
+  grid-template-columns: 1fr 2fr 2fr 1fr */
 
 
   border: 15px solid blue;
   background-color: aqua;
   grid-column: 1 / 5;
-  grid-row: 1 / 7;
-  grid-gap: 1em;
-  z-index: -2;
+  /* grid-row: 1 / 7; */
+  /* grid-gap: 1em; */
+  /* z-index: 1; */
+  ;
 
   /* display: inline-block; */
   
@@ -295,15 +252,15 @@ body {
 
 .educationLogos {
   background-color: red;
-  grid-column: 3 / 4;
+  /* grid-column: 3 / 4; */
 }
 
 
 .uw {
   background-color: coral;
   /* display: grid; */
-  grid-column: 1 / 4;
-  grid-row: 1/3;
+  /* grid-column: 1 / 4;
+  grid-row: 1/3; */
 }
 .sanDiego {
   /* background-color: coral; */
@@ -326,12 +283,16 @@ body {
 
 
 
+
+
+
+
 /* **-----This Next div is className .volunteer this includes .volunteer-------** */
 /* **----------whole volunteer area ( section className .volunteer )-----------** */
 
 .volunteer {
   display: grid;
-  grid-template-columns:  20% 30% 30% 20%;
+  grid-template-columns:  1fr 2fr 2fr 1fr;
   grid-gap: 1.5em;
   /* border: 5px solid red; */
 }
@@ -377,7 +338,7 @@ body {
 
 .footer {
   display: grid;
-  grid-template-columns:  20% 30% 30% 20%;
+  grid-template-columns:  1fr 2fr 2fr 1fr;
   grid-gap: 1.5em;
 }
 
