@@ -16,7 +16,7 @@ export default class Resume extends Component {
     return (
       <>
         <body className="site">
-          <div className="resumeHero">
+          <div className="wrapper">
             <h1 className="resumeTitle"> Scott Patrcick Dancer</h1>
 
             <p className="resumeSubtitle">
@@ -139,7 +139,7 @@ export default class Resume extends Component {
               className="educationBackground"
               alt="a row of colored pencils"
             ></img>
-            
+
             </div>
           </section>
 
