@@ -73,23 +73,16 @@ export default class Resume extends Component {
             ></img>
           </section>
 
-
-
-
-
-
-
           <section className="education">
+            <img
+              src={coloredPencils}
+              className="educationBackground"
+              alt="a row of colored pencils"
+            ></img>
+
             <div className="educationContent">
-              <h2>Education</h2>
-
-              <img
-                src={coloredPencils}
-                className="educationBackground"
-                alt="a row of colored pencils"
-              ></img>
-
               <section className="educationDetails">
+                <h2>Education</h2>
                 <section className="educationLogos uw">
                   <img
                     src={uwLogo}
