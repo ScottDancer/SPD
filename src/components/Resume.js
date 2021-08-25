@@ -15,7 +15,7 @@ export default class Resume extends Component {
   render() {
     return (
       <>
-        <body className="site">
+        <div className="site">
           <div className="resumeWrapper">
             <h1 className="resumeTitle"> Scott Patrcick Dancer</h1>
             
@@ -176,11 +176,11 @@ export default class Resume extends Component {
 
 
           <footer className="footer">
-            <div class="footerContent">
+            <div className="footerContent">
               <h2>Create with me!</h2>
 
-              <ul class="footerContactList">
-                <li class="footerContactLinks">
+              <ul className="footerContactList">
+                <li className="footerContactLinks">
                   <a href="https://www.linkedin.com/in/scott-dancer-9744091b2/">
                     {" "}
                     <img
@@ -192,7 +192,7 @@ export default class Resume extends Component {
                   </a>
                 </li>
 
-                <li class="footerContactLinks">
+                <li className="footerContactLinks">
                   <a href=" https://github.com/ScottDancer">
                     <img
                       src={cuteGithubLogo}
@@ -205,7 +205,7 @@ export default class Resume extends Component {
               </ul>
             </div>
           </footer>
-        </body>
+        </div>
       </>
     );
   }
