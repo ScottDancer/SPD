@@ -292,27 +292,27 @@ body {
 .volunteer {
   display: grid;
   grid-template-columns:  1fr 2fr 2fr 1fr;
-  grid-gap: 1.5em;
+  grid-column-gap: 1.5em;
   /* border: 5px solid red; */
 }
 
 .volunteer h2{
   grid-column: 2 / 4;
   padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .volunteer img{
   grid-row: 1 /6;
-  /* margin-top: 45px;
-  margin-bottom: 45px;
-  margin-left: 25%; */
   grid-column: 1 / 2; 
   place-self: center center;
+  padding-top: 20%;
+  padding-bottom: 20%;
 }
 
 .volunteerText{
   grid-column: 2 / 3; 
-  grid-row: 2 /4;
+  grid-row: 2 / 3;
   
 }
 
