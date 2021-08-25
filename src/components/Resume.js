@@ -16,7 +16,7 @@ export default class Resume extends Component {
     return (
       <>
         <body className="site">
-          <div className="wrapper">
+          <div className="resumeWrapper">
             <h1 className="resumeTitle"> Scott Patrcick Dancer</h1>
 
             <p className="resumeSubtitle">

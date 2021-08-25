@@ -8,10 +8,10 @@ body {
 }
 
 
-/* **-----resumeHero is the div that holds hero, resumeTitle and resumeSubtitle------** */
-/* **----- whole hero area ( div className .resumeHero ) ------** */
+/* **-----resumeWrapper is the div that holds hero, resumeTitle and resumeSubtitle------** */
+/* **----- whole hero area ( div className .resumeWrapper) ------** */
 
-.wrapper {
+.resumeWrapper {
 
   /* border: 15px solid blue; */
 
