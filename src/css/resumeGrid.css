@@ -115,8 +115,7 @@ body {
 .profilePic {
   grid-column: 1 / 2;
   grid-row: 1 /4;
-  margin-top: 20px;
-  margin-left: 20%;
+  place-self: center center;
 }
 
 

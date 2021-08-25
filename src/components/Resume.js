@@ -18,17 +18,20 @@ export default class Resume extends Component {
         <body className="site">
           <div className="resumeWrapper">
             <h1 className="resumeTitle"> Scott Patrcick Dancer</h1>
-
+            
             <p className="resumeSubtitle">
               <q>The dreamers are the saviors of the wolrd.</q>
               <cite>- James Allen</cite>
             </p>
+
             <img
               src={heroComputerd}
               className="hero"
               alt="rainbow laptop"
             ></img>
+
           </div>
+
 
           <section className="summary">
             <h2 className="heading headingSummary">
@@ -72,6 +75,11 @@ export default class Resume extends Component {
               alt="shiny red pdf logo"
             ></img>
           </section>
+
+
+
+
+
 
           <section className="education">
        
@@ -143,6 +151,11 @@ export default class Resume extends Component {
             </div>
           </section>
 
+
+
+
+
+
           <div className="volunteer">
             <h2>Volunteer Work</h2>
 
@@ -155,6 +168,12 @@ export default class Resume extends Component {
             <p className="volunteerTextA">Web Designer and Developer</p>
             <p className="volunteerTextB">2021</p>
           </div>
+
+
+
+
+
+
 
           <footer className="footer">
             <div class="footerContent">
