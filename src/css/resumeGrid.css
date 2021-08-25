@@ -292,19 +292,19 @@ body {
 .volunteer {
   display: grid;
   grid-template-rows: 75px 40px 50px 60px;
-  grid-template-columns:  1fr 60% 1fr;
+  grid-template-columns:  1fr 2fr 2fr 1fr;
   grid-column-gap: 1.5em;
 
-  border: 5px solid red;
+  /* border: 5px solid red; */
 
-  /* *--media query for smaller screens / about 500px (not iphone 10 small yet)--* */
+  /* *--media query for smaller screens / 900px to 500px (not iphone 10 small yet)--* */
 }
 
 .volunteer h2{
-  grid-column: 2 / 3;
+  grid-column: 2 / 4;
   padding-top: 2%;
 
-  /* *--media query for smaller screens / about 500px (not iphone 10 small yet)--* */
+  /* *--media query for smaller screens / 900px to 500px (not iphone 10 small yet)--* */
 
 }
 
@@ -313,7 +313,7 @@ body {
   grid-column: 1 / 2; 
   place-self: center center;
 
-  /* *--media query for smaller screens / about 500px (not iphone 10 small yet)--* */
+  /* *--media query for smaller screens / 900px to 500px (not iphone 10 small yet)--* */
 
 }
 
@@ -322,7 +322,7 @@ body {
   grid-row: 2 / 3;
   align-self: start;
 
-  /* *--media query for smaller screens / about 500px (not iphone 10 small yet)--* */
+  /* *--media query for smaller screens / 900px to 500px (not iphone 10 small yet)--* */
   
   /* grid-column: 2 / 3; 
   grid-row: 2 / 3;
@@ -337,7 +337,7 @@ body {
   align-self: start;
   justify-self: start;
 
-  /* *--media query for smaller screens / about 500px (not iphone 10 small yet)--* */
+  /* *--media query for smaller screens / 900px to 500px (not iphone 10 small yet)--* */
 
   /* grid-column: 2 / 3; 
   grid-row: 3/ 4;
@@ -348,11 +348,11 @@ body {
 }
 
 .volunteerTextB{
-  grid-column: 2 / 3; 
+  grid-column: 3 / 4; 
   grid-row: 3 / 4;
   justify-self: end;
 
-  /* *--media query for smaller screens / about 500px (not iphone 10 small yet)--* */
+  /* *--media query for smaller screens / 900px to 500px (not iphone 10 small yet)--* */
   
   /* grid-column: 2 / 3; 
   grid-row: 3 / 4;
