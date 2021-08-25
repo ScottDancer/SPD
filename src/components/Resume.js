@@ -15,7 +15,7 @@ export default class Resume extends Component {
   render() {
     return (
       <>
-        <div className="site">
+        
           <div className="resumeWrapper">
             <h1 className="resumeTitle"> Scott Patrcick Dancer</h1>
             
@@ -205,7 +205,7 @@ export default class Resume extends Component {
               </ul>
             </div>
           </footer>
-        </div>
+   
       </>
     );
   }

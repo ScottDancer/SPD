@@ -298,6 +298,8 @@ body {
   /* border: 5px solid red; */
 
   /* *--media query for smaller screens / 900px to 500px (not iphone 10 small yet)--* */
+
+  /* grid-template-columns:  1fr 4fr 1fr; */
 }
 
 .volunteer h2{
@@ -305,7 +307,7 @@ body {
   padding-top: 2%;
 
   /* *--media query for smaller screens / 900px to 500px (not iphone 10 small yet)--* */
-
+   /* grid-column: 2 /3; */
 }
 
 .volunteer img{

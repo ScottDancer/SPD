@@ -52,6 +52,9 @@ body {
   /* color: #BBC2CC; */
   color: #A8A9AD;
 
+  background-color: springgreen;
+  z-index: 4;
+
   font-family: 'Tangerine', cursive;
   margin: 0;
 }
@@ -69,6 +72,8 @@ body {
    /* color: #877D74; */
   /* color: #BBC2CC; */
   color: #A8A9AD;
+  background-color: palevioletred;
+  z-index: 4;
 
 
   font-size: 30px;
