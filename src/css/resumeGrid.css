@@ -163,7 +163,7 @@ body {
 .pdfLogo {
   grid-column: 4 / 5;
   grid-row: 3 / 4;
-  margin-left: 25%;
+  place-self: center center;
   
 }
 
