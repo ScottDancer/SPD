@@ -17,7 +17,7 @@ body {
 
   display: grid;
   /* grid-template-columns:  1fr 2fr 2fr 1fr; */
-  grid-template-columns: 50px 1fr 4fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
   /* grid-template-rows: 1fr 4fr 1fr;  */
   grid-column-gap: 1.5em;
 
@@ -44,7 +44,7 @@ body {
 /* **--------"Dreamers are the..." ( div className .resumeSubtitle )-----------** */
 
 .resumeSubtitle {
-  grid-column: 3 / 4;
+  grid-column: 2 / 3;
   text-align: right;
   grid-row: 2 / 3;
   z-index: 2;
@@ -191,7 +191,7 @@ body {
 
 
   border: 15px solid palevioletred;
-  background-color: palegreen;
+  /* background-color: palegreen; */
 
   
   /* display: grid;
@@ -237,19 +237,7 @@ body {
 
 
 .educationDetails {
-  /* display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr */
 
-
-  border: 15px solid blue;
-  background-color: aqua;
-  grid-column: 1 / 5;
-  /* grid-row: 1 / 7; */
-  /* grid-gap: 1em; */
-  /* z-index: 1; */
-  ;
-
-  /* display: inline-block; */
   
 }
 

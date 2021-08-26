@@ -85,7 +85,7 @@ export default class Resume extends Component {
        
 
             <div className="educationContent">
-              <section className="educationDetails">
+              <section className="educationDetails educationBackground">
                 <h2>Education</h2>
                 <section className="educationLogos uw">
                   <img
