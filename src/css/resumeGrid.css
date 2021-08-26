@@ -224,30 +224,38 @@ body {
   /* grid-column: 1 / 5;
   grid-row: 1 / 7; */
 
-  display: grid;
+  /* display: grid;
   grid-template-columns:1fr 2fr 2fr 1fr;
-  grid-gap: 1.5em;
+  grid-gap: 1.5em; */
  
 
 }
-.educationBackground {
+ .educationDetails {
+
+   display: grid;
+  grid-template-columns:1fr 2fr 2fr 1fr;
+  grid-gap: 1.5em;
  
   grid-column: 1 / 5;
   grid-row: 1 / 7;
+  
    
 }
 
 
 
 .educationDetails {
-
+  /* grid-column: 1 / 5;
+  grid-row: 1 / 7; */
   
 }
 
 .educationLogos {
   background-color: red;
-  grid-column: 2 / 4;
-  float: left;
+  /* grid-column: 3 / 4; */
+  /* float: left; */
+  
+  place-self: center;
   /* grid-column: 3 / 4; */
 }
 
