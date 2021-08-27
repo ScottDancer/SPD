@@ -89,16 +89,11 @@ export default class Resume extends Component {
             
         
               <section className="educationDetails">
-              {/* <img
-              src={coloredPencils}
-              className="educationDetails"
-              alt="a row of colored pencils"
-            ></img> */}
                 <h2>Education</h2>
                 <section className="educationLogos uwContent">
                   <img
                     src={uwLogo}
-                    className="uwLogo"
+                    // className="uwLogo"
                     alt="purple and white logo for the university of washington"
                   ></img>
                   <h3>University of Washington - Seattle, WA</h3>
@@ -114,7 +109,7 @@ export default class Resume extends Component {
                 <section className="educationLogos sanDiegoLogo">
                   <img
                     src={sdceLogo}
-                    className="sdceLogo"
+                    // className="sdceLogo"
                     alt="teal,black, and white logo for code for san diego continueing education"
                   ></img>
                   <h3>San Diego Continuing Education - San Diego, CA</h3>
@@ -128,7 +123,7 @@ export default class Resume extends Component {
                 <section className="educationLogos mfa">
                   <img
                     src={mfaLogo}
-                    className="mfaLogo"
+                    // className="mfaLogo"
                     alt="black and white graphic logo for museum of fine arts in Boston, MA"
                   ></img>
                   <h3> Museum of Fine Arts - Boston, MA</h3>
@@ -142,7 +137,7 @@ export default class Resume extends Component {
                 <section className="educationLogos lastEntry harvardEx">
                   <img
                     src={harvardExtensionLogo}
-                    className="harvardExtensionLogo"
+                    // className="harvardExtensionLogo"
                     alt="red, blue, white, and gold logo for code for harvard extension school Cambridge, MA"
                   ></img>
                   <h3>Harvard Extension School - Cambridge, MA</h3>
