@@ -87,15 +87,15 @@ export default class Resume extends Component {
             <div className="educationContent">
             
             
-            <img
+        
+              <section className="educationDetails educationBackground">
+              <img
               src={coloredPencils}
               className="educationBackground"
               alt="a row of colored pencils"
             ></img>
-            
-              <section className="educationDetails educationBackground">
                 <h2>Education</h2>
-                <section className="educationLogos uw">
+                <section className="educationLogos uwContent">
                   <img
                     src={uwLogo}
                     className="uwLogo"
@@ -107,11 +107,11 @@ export default class Resume extends Component {
                     A 12-week intensive program focused on gaining technical
                     programming skills in HTML5, CSS3, JavaScript, JQuery,
                     Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express,
-                    Handelbars.js & ReactJS.{" "}
+                    Handelbars.js & ReactJS
                   </p>
                 </section>
 
-                <section className="educationLogos sanDiego">
+                <section className="educationLogos sanDiegoLogo">
                   <img
                     src={sdceLogo}
                     className="sdceLogo"
