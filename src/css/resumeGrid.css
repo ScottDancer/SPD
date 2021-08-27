@@ -233,7 +233,7 @@ body {
 }
  .educationDetails {
 
-   display: grid;
+  display: grid;
   grid-template-columns:1fr 2fr 2fr 1fr;
   grid-template-rows: 100px 175px 175px 175px 175px;
    
@@ -251,12 +251,12 @@ body {
 .educationLogos {
   background-color: red;
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-template-rows: 20px 30px 70px;
-  grid-column: 2 / 4;
-  border-top: 1px solid #CCC5BB;
-  grid-column-gap: 10px;
-  padding-top: 15px;
+  /* grid-template-columns: 1fr 2fr 2fr 1fr; */
+  /* grid-template-rows: 20px 30px 70px; */
+  /* grid-column: 2 / 4; */
+  /* border-top: 1px solid #CCC5BB; */
+  /* grid-column-gap: 10px; */
+  /* padding-top: 15px; */
 
 }
 
@@ -278,18 +278,20 @@ body {
   grid-column: 1 / 2;
 }
 
-
+.uwContent {
+  /* background-color: coral; */
+}
 
 .sanDiegoLogo {
-  /* background-color: coral; */
+  background-color: coral;
 
 }
 .mfa {
-  /* background-color: coral; */
+  background-color: red;
 
 }
 .harvardEx {
-  /* background-color: coral; */
+  background-color: coral;
 
 }
 
