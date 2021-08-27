@@ -81,10 +81,10 @@ export default class Resume extends Component {
 
 
 
-          <section className="education">
+          {/* <section className="education"> */}
        
 
-            <div className="educationContent">
+            {/* <div className="educationContent"> */}
             
             
         
@@ -152,8 +152,8 @@ export default class Resume extends Component {
               </section>
             
 
-            </div>
-          </section>
+            {/* </div> */}
+          {/* // </section> */}
 
 
 
