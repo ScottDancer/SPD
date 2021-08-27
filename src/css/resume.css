@@ -236,8 +236,8 @@ body {
  
   color:#131314;
   background-color: hsl(219, 37.2%, 94.1%);
-  /* background-image: url(images/colored-pencils.jpg); */
-  
+  background-image: url(../images/coloredPencils.jpg);
+    /* background-image: url(../images/colored-pencils.jpg); */
   width: 100vw;
   height: auto;
   background-size: cover;
