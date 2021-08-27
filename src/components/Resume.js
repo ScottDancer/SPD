@@ -91,7 +91,7 @@ export default class Resume extends Component {
               <section className="educationDetails educationBackground">
               <img
               src={coloredPencils}
-              className="educationBackground"
+              className="educationDetails"
               alt="a row of colored pencils"
             ></img>
                 <h2>Education</h2>
