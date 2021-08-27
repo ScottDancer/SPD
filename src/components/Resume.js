@@ -89,6 +89,10 @@ export default class Resume extends Component {
             
         
               <section className="educationDetails">
+
+
+
+
                 <h2>Education</h2>
                 <section className="educationLogos uwContent">
                   <img
@@ -106,7 +110,7 @@ export default class Resume extends Component {
                   </p>
                 </section>
 
-                <section className="educationLogos sanDiegoLogo">
+                <section className="educationLogos sanContent">
                   <img
                     src={sdceLogo}
                     // className="sdceLogo"
@@ -120,7 +124,7 @@ export default class Resume extends Component {
                   </p>
                 </section>
 
-                <section className="educationLogos mfa">
+                <section className="educationLogos mfaContent">
                   <img
                     src={mfaLogo}
                     // className="mfaLogo"
@@ -134,7 +138,7 @@ export default class Resume extends Component {
                   </p>
                 </section>
          
-                <section className="educationLogos lastEntry harvardEx">
+                <section className="educationLogos lastEntry harvardExContent">
                   <img
                     src={harvardExtensionLogo}
                     // className="harvardExtensionLogo"

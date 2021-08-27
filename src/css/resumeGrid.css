@@ -285,19 +285,19 @@ body {
   grid-column: 2 / 5;
 }
 
-.sanDiegoLogo {
+.sanContent {
  
   background-color: coral;
   grid-row: 3 / 4;
   grid-column: 2 / 5; 
 
 }
-.mfa {
+.mfaContent {
   background-color: red;
   grid-row: 4/5;
   grid-column: 2 / 5;
 }
-.harvardEx {
+.harvardExContent{
   background-color: coral;
   grid-row: 5/6;
   grid-column: 2 / 5;
