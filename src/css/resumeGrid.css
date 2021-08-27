@@ -214,7 +214,7 @@ body {
 
 
 .educationLogos {
-  background-color: red;
+  /* background-color: red; */
   display: grid;
   /* grid-template-columns: 1fr 2fr 2fr 1fr; */
   /* grid-template-rows: 20px 30px 70px; */
@@ -234,8 +234,7 @@ body {
 
 .educationLogos p {
   grid-column: 2 / 5;
-
-  
+ 
 }
 
 .educationLogos img{
@@ -250,18 +249,18 @@ body {
 
 .sanContent {
  
-  background-color: coral;
+  /* background-color: coral; */
   grid-row: 3 / 4;
   grid-column: 2 / 5; 
 
 }
 .mfaContent {
-  background-color: red;
+  /* background-color: red; */
   grid-row: 4/5;
   grid-column: 2 / 5;
 }
 .harvardExContent{
-  background-color: coral;
+  /* background-color: coral; */
   grid-row: 5/6;
   grid-column: 2 / 5;
 
