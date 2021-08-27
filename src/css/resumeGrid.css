@@ -182,62 +182,25 @@ body {
 
 
 
-/* **---This Next section is className .education this includes .education .educationContent .educationBackground .educationLogos-------** */
-/* **----------whole education section ( section className .education )-----------** */
-
-
-.education {
-
-  
-  /* background-color: palegreen; */
-
-
-  border: 15px solid palevioletred;
-  /* background-color: palegreen; */
-
-  
-  /* display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-gap: 1.5em; */
-  
-}
-
-.education h2{
-
-  /* *--------------------this is good code I think, Just testing ----------* */
-  /* grid-column: 1 / 5;
-  grid-row: 1 / 2;
-  justify-content: center;
-  text-align: center;
-  padding-top: 2%; */
-}
+/* **---This Next section is className .educationDetails this includes  .educationContent  .educationLogos-------** */
+/* **----------whole education section ( section className .educationDetails )-----------** */
 
 
 
 
-
-.educationDetails {
-  border: 5px solid green;
-  /* background-color: cornflowerblue; */
-  
-  /* *--------------------this is good code I think, Just testing ----------* */
-  /* grid-column: 1 / 5;
-  grid-row: 1 / 7; */
-
-  /* *--------------------I am commenting this out and moving this grid to educationDetails ----------* */
-  /* display: grid;
-  grid-template-columns:1fr 2fr 2fr 1fr;
-  grid-gap: 1.5em; */
- 
-
-}
  .educationDetails {
+  border: 5px solid green;
+
+  /* background-color: cornflowerblue; */
+
 
   display: grid;
   grid-template-columns:1fr 2fr 2fr 1fr;
   grid-template-rows: 100px 175px 175px 175px 175px;
    
 }
+
+
 
 
 

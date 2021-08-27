@@ -213,36 +213,38 @@ body {
   font-size: 2.22rem;
   margin-bottom: 0;
   font-weight: 500;
-  z-index: 2;
+  /* z-index: 2; */
 
   /* text-align: center; */
 }
 
-.educationContent {
+h3 + p {
+  font-style: italic;
+  font-weight: 500;
+}
 
-
+h3 ~ p {
+  margin: 0;
 }
 
 .educationDetails{
- 
-  background-repeat: no-repeat;
   color:#131314;
   background-color: hsl(219, 37.2%, 94.1%);
   background-image: url(../images/coloredPencils.jpg);
+  background-repeat: no-repeat;
   width: 100vw;
   height: auto;
   background-size: cover;
+  background-position: center left;
+
   /* background-attachment: fixed; */
 
-  /* *----cnad change to center right if I want to later----* */
-  background-position: center left;
-  /* z-index: -2; */
-
-  
+  /* *----I can change to center right if I want to later----* */
+  /* background-position: center right; */
 }
 
 .educationLogos {
-  width: 110px;
+  /* width: 110px; */
   border-bottom: 1px solid #877D74;
 }
 
