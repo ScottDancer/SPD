@@ -27,8 +27,12 @@ html {
 body {
   /* background-color: teal; */
   /* background-color: black; */
-
-  font-family: 'Raleway', sans-serif;  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+   
 }
 
 
@@ -191,8 +195,71 @@ body {
   padding-top: 0; 
 }
 
+          {/* <!-- ********************  PROJECTS / PORTFOLIO  ********************* --> */}
 
 
+          h2 {
+            color:#877D74;
+            font-size: 2.22rem;
+            text-align: center;
+            margin-bottom: 0;
+            font-weight: 500;
+            padding-top: 2%;
+            padding-bottom: 2%;
+          
+          }
+          
+          .workExperience {
+            color:  #F8F9FA;
+            background-color: #131314;
+          }
+
+          .workExperience p{
+            padding-bottom: 3%;
+          }
+          
+          .keyContributions {
+            font-weight: 500;
+          }
+          
+          .jobItem {
+            font-weight: 300;
+            display: grid;
+            grid-column: 2 /4 ;
+            grid-template-columns: 1fr 2fr;
+            column-gap: 20px;
+            border-bottom: 1px solid #877D74;
+          }
+          
+          .jobDetails {
+          
+          }
+          
+          .workExperience ul {
+            list-style-type: square;
+          }
+          
+          .contentWrap {
+            padding-bottom: 100px;
+          }
+          
+          .lastEntry {
+            border-bottom: hidden;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {/* <!-- ***********************  WORK EXPERIENCE  *********************** --> */}
 
 
 
