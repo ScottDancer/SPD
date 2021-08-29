@@ -244,8 +244,7 @@ h3 ~ p {
 }
 
 .educationLogos {
-  /* width: 110px; */
-  border-bottom: 1px solid #877D74;
+  border-top: 1px solid #877D74;
 }
 
 .educationLogos img{
@@ -253,9 +252,10 @@ h3 ~ p {
   max-height: 130px;
 }
 
-.lastEntry {
-  border-bottom: hidden;
+.uwContent {
+  border-top: hidden;
 }
+
 
 
 
