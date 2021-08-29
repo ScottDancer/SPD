@@ -85,7 +85,7 @@ export default class Resume extends Component {
         <div className="projectWrap">
         <h2>Featured Projects</h2>
         <p>
-          View selected projects below. More information can be found at
+          The Project Section is currently under a rebuild and will be up and running shortly!
         </p>
         </div>
 
