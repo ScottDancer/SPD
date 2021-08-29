@@ -80,11 +80,121 @@ export default class Resume extends Component {
 
 
 
+          {/* <!-- ********************  PROJECTS / PORTFOLIO  ********************* --> */}
+          
+        <div className="projectWrap">
+        <h2>Featured Projects</h2>
+        <p>
+          View selected projects below. More information can be found at
+        </p>
+        </div>
 
-          {/* <section className="education"> */}
-       
+     
 
-            {/* <div className="educationContent"> */}
+        
+
+        
+   
+
+
+
+
+
+
+
+
+
+          {/* <!-- ***********************  WORK EXPERIENCE  *********************** --> */}
+
+         
+
+<section className="workExperience">
+  <div className="contentWrap">
+    <h2>Work Experience</h2>
+    <p>Twenty five years of fine dining, bartending and managing restaurants in Boston, San Diego, Big Bear Lake, Cape Cod, Tucson, Cannon Beach, and Vancouver.  Won several Hospitality Awards which led to the promotion as a corporate regional trainer of 32 restaurants along the East Coast in 2014. </p>
+
+  
+    <section className="jobItem">
+      <div className="jobDetails">
+        <h3>Art and Development Consultant</h3>
+        <p>Scott Patrick Dancer - Cannon Beach, Oregon</p>
+        <p>MARCH 2019 – PRESENT</p>
+      </div>
+      <div className="jobSummary">
+      <p className="keyContributions">Key Contributions:</p>
+        <ul>
+          <li>Created illustrations for marketing campaigns for a local business to help increase take-out sales</li>
+          <li>Developing a web application to help an appraisal firm offer a modern online presence</li>
+        </ul>
+      </div>
+    </section>
+
+  <section className="jobItem">
+    <div className="jobDetails">
+      <h3>Server</h3>
+      <p>Pelican Brewery - Cannon Beach, Oregon</p>
+      <p>JUNE 2020 – NOVEMBER 2020</p>
+    </div>
+    <div className="jobSummary">
+    <p className="keyContributions">Key Contributions:</p>
+      <ul>
+        <li>Implemented safety measures to protect employees and guests during the pandemic</li>
+        <li>Participated in discussions which led to corporate-wide diversity policies</li>
+      </ul>
+    </div>
+  </section>
+
+  <section className="jobItem">
+    <div className="jobDetails">
+      <h3>Server</h3>
+        <p>Amaro’s Table - Vancouver, Washington</p>
+        <p>APRIL 2019 – MARCH 2020</p>
+    </div>
+    <div className="jobSummary">
+        <p className="keyContributions">Key Contributions:</p>
+        <ul>
+          <li>Created systems that improved outdoor dining service</li>
+          <li>Streamlined outdated feature presentation to a modern and efficient variations</li>
+        </ul>
+        </div>
+  </section>
+  
+  <section className="jobItem lastEntry">
+    <div className="jobDetails">
+      <h3>Food and Beverage Director/Consultant</h3>
+      <p>Best Western Premier - Vancouver, Washington</p>
+      <p>JANUARY 2019 – APRIL 2019</p>
+      </div>
+      <div className="jobSummary">
+    <p className="keyContributions">Key Contributions:</p>
+      <ul>
+        <li>Developed a complete restaurant from concept to operational, including developing metrics to measure guest experience, food cost, and restaurant profitability</li>
+        <li>Interviewed, hired, and counseled qualified industry professionals </li>
+        <li>Provided training empowering staff to resolved problems efficiently ensuring both guest satisfaction and quality assurance </li>
+      </ul>
+      </div>
+  </section>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ {/* <!-- ***********************   EDUCATION  *********************** --> */}
             
             
         
