@@ -451,12 +451,18 @@ h2 {
 
 @supports (grid-area: auto) {
 
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 816px) {
 
   .mfaContent {
     background-color: rgb(152, 211, 165);
     
   }
+
+  .educationLogos img{
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+    place-self: center center
+   }
 
  
  }
@@ -468,16 +474,33 @@ h2 {
 
   .mfaContent, .uwContent, .sanContent, .harvardExContent {
     background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 120px 30px 70px 150px;
   
     
   }
 
   .educationDetails {
+    display: grid;
+    grid-template-columns:1fr 2fr 2fr 1fr;
+    grid-template-rows: 100px 350px 400px 400px 400px;
     grid-gap: 1.5em;
+    padding-bottom: 10%;
   }
-
- 
  }
+
+ .educationLogos {
+
+  /* background-color: #3cb9fc; */
+ }
+
+ .educationLogos img{
+  grid-column: 2 / 4;
+  place-self: center center
+ }
+
+
 }
 
 @supports (grid-area: auto) {
