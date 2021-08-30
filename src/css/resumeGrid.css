@@ -286,6 +286,7 @@ h2 {
 .uwContent {
   /* background-color: coral; */
   /* grid-column: 2 / 4; */
+  border-top: hidden;
 }
 
 .sanContent {
@@ -428,4 +429,50 @@ h2 {
 
 .footerContactLinks {
   
+}
+
+
+/* **--------------MEDIA QUERIES------------** */
+
+
+
+@supports (grid-area: auto) {
+
+  @media screen and (min-width: 600px) {
+
+  .uwContent {
+    background-color: blueviolet;
+  }
+
+ 
+ }
+}
+
+@supports (grid-area: auto) {
+
+  @media screen and (max-width: 600px) {
+
+  .volunteer {
+    display: grid;
+    grid-template-rows: 75px 150px 50px 50px;
+    grid-template-columns:  1fr 2fr 2fr 1fr;
+    grid-column-gap: 1.5em;
+    background-color: blueviolet;
+  }
+
+  .volunteer img {
+    grid-row: 2 /3 ;
+    grid-column: 2 /4;
+  }
+
+
+  .volunteerTextA{
+    color:red;
+    grid-column: 2 / 3; 
+    grid-row: 3/ 4;
+    align-self: start;
+    justify-self: start;
+  }
+
+ }
 }
