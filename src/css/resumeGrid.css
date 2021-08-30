@@ -442,6 +442,38 @@ h2 {
 
   .uwContent {
     background-color: blueviolet;
+
+  }
+
+ 
+ }
+}
+
+@supports (grid-area: auto) {
+
+  @media screen and (min-width: 800px) {
+
+  .mfaContent {
+    background-color: rgb(152, 211, 165);
+    
+  }
+
+ 
+ }
+}
+
+@supports (grid-area: auto) {
+
+  @media screen and (max-width: 815px) {
+
+  .mfaContent, .uwContent, .sanContent, .harvardExContent {
+    background-color: white;
+  
+    
+  }
+
+  .educationDetails {
+    grid-gap: 1.5em;
   }
 
  
@@ -454,7 +486,7 @@ h2 {
 
   .volunteer {
     display: grid;
-    grid-template-rows: 75px 130px 50px 50px;
+    grid-template-rows: 75px 130px 50px 40px;
     grid-template-columns:  1fr 2fr 2fr 1fr;
     grid-column-gap: 1.5em;
     /* background-color: blueviolet; */
@@ -464,6 +496,7 @@ h2 {
     grid-row: 2 / 3 ;
     grid-column: 2 / 4;
     place-self: center;
+    padding-top: 7%;
   }
 
 
@@ -473,6 +506,10 @@ h2 {
     grid-row: 4 / 5;
     place-self: center;
     text-align: center;
+  }
+
+  .volunteerTextA {
+    place-self: start center;
   }
 
   .volunteerTextB {
@@ -486,6 +523,7 @@ h2 {
   .volunteerText {
     grid-column: 2 /4;
     grid-row: 3/4;
+    font-size: 16px;
     place-self: center;
   }
 
