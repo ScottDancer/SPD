@@ -338,7 +338,7 @@ h2 {
 
 .volunteer h2{
   grid-column: 2 / 4;
-  padding-top: 2%;
+  padding-top: 4%;
 
   /* *--media query for smaller screens / 900px to 500px (not iphone 10 small yet)--* */
    /* grid-column: 2 /3; */
@@ -454,24 +454,39 @@ h2 {
 
   .volunteer {
     display: grid;
-    grid-template-rows: 75px 150px 50px 50px;
+    grid-template-rows: 75px 130px 50px 50px;
     grid-template-columns:  1fr 2fr 2fr 1fr;
     grid-column-gap: 1.5em;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
   }
 
   .volunteer img {
-    grid-row: 2 /3 ;
-    grid-column: 2 /4;
+    grid-row: 2 / 3 ;
+    grid-column: 2 / 4;
+    place-self: center;
   }
 
 
-  .volunteerTextA{
-    color:red;
-    grid-column: 2 / 3; 
-    grid-row: 3/ 4;
-    align-self: start;
-    justify-self: start;
+  .volunteerTextA,.volunteerTextB {
+    /* color:red; */
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+    place-self: center;
+    text-align: center;
+  }
+
+  .volunteerTextB {
+    grid-row: 5 /6;
+    grid-column:2/ 4;
+    place-self: center;
+    padding-bottom: 4%;
+
+  }
+
+  .volunteerText {
+    grid-column: 2 /4;
+    grid-row: 3/4;
+    place-self: center;
   }
 
  }
