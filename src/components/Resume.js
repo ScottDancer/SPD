@@ -5,7 +5,6 @@ import heroComputerd from "../images/heroComputerd.jpg";
 import linkedinLogo from "../images/linkedinLogo.jpg";
 import cuteGithubLogo from "../images/cuteGithubLogo.png";
 import pdxCodeLogo from "../images/pdxCodeLogo.png";
-import coloredPencils from "../images/coloredPencils.jpg";
 import uwLogo from "../images/uwLogo.png";
 import sdceLogo from "../images/sdceLogo.png";
 import mfaLogo from "../images/mfaLogo.png";

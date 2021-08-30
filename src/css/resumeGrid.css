@@ -254,7 +254,6 @@ h2 {
   
 }
 
-
 .educationLogos {
   /* background-color: red; */
   display: grid;
@@ -270,7 +269,7 @@ h2 {
 .educationLogos h3 {
   /* color: rebeccapurple; */
   grid-column: 2 / 5;
-  place-self: center left;
+  place-self: center left; 
   
 }
 
