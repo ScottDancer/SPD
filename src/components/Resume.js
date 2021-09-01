@@ -46,7 +46,13 @@ export default class Resume extends Component {
                 to building applications that are aesthetically pleasing and
                 meet client expectations. Earned a Certificate in Web
                 Development from the University of Washington.
-              </p>
+              </p><br></br>
+              <div>
+              <p> <b>Languages:</b>   HTML5, CSS3, JavaScript/ECMAScript 6, SQL  </p>
+              <p> <b> Applications:</b> Github, Heroku, mySQL, Postman, Netlify  </p>
+              <p> <b>Tools:</b> Bootstrap, Materialize, jQuery, Node.js, Express, Handlebars.js, ReactJS, MongoDB  </p>
+              <p> <b>Adobe:</b> Photoshop, Illustrator, Animate, InDesign, After Effects, Audition, Dreamweaver, XD  </p>
+              </div>
             </div>
 
             <div className="contactInfo">
@@ -206,7 +212,7 @@ export default class Resume extends Component {
                 <section className="educationLogos uwContent">
                   <img
                     src={uwLogo}
-                    // className="uwLogo"
+                    className="schoolLogo"
                     alt="purple and white logo for the university of washington"
                   ></img>
                   <h3>University of Washington - Seattle, WA</h3>
@@ -222,7 +228,7 @@ export default class Resume extends Component {
                 <section className="educationLogos sanContent">
                   <img
                     src={sdceLogo}
-                    // className="sdceLogo"
+                    className="schoolLogo"
                     alt="teal,black, and white logo for code for san diego continueing education"
                   ></img>
                   <h3>San Diego Continuing Education - San Diego, CA</h3>
@@ -236,7 +242,7 @@ export default class Resume extends Component {
                 <section className="educationLogos mfaContent">
                   <img
                     src={mfaLogo}
-                    // className="mfaLogo"
+                    className="schoolLogo"
                     alt="black and white graphic logo for museum of fine arts in Boston, MA"
                   ></img>
                   <h3> Museum of Fine Arts - Boston, MA</h3>
@@ -250,7 +256,7 @@ export default class Resume extends Component {
                 <section className="educationLogos lastEntry harvardExContent">
                   <img
                     src={harvardExtensionLogo}
-                    // className="harvardExtensionLogo"
+                    className="schoolLogo"
                     alt="red, blue, white, and gold logo for code for harvard extension school Cambridge, MA"
                   ></img>
                   <h3>Harvard Extension School - Cambridge, MA</h3>

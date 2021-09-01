@@ -354,7 +354,7 @@ h2 {
 }
 
 .volunteerText{
-  grid-column: 2 / 3; 
+  grid-column: 2 / 4; 
   grid-row: 2 / 3;
   align-self: start;
 
@@ -368,7 +368,7 @@ h2 {
 }
 
 .volunteerTextA{
-  grid-column: 2 / 3; 
+  grid-column: 2 / 4; 
   grid-row: 3/ 4;
   align-self: start;
   justify-self: start;
@@ -438,10 +438,10 @@ h2 {
 
 @supports (grid-area: auto) {
 
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 815px) {
 
   .uwContent {
-    background-color: blueviolet;
+    background-color: rgb(23, 192, 121);
 
   }
 
@@ -490,18 +490,25 @@ h2 {
   }
  }
 
- .educationLogos {
 
-  /* background-color: #3cb9fc; */
+  .educationLogos img{
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    place-self: center center;
+
+    background-color: #3cb9fc;
+   }
+
+
  }
 
- .educationLogos img{
-  grid-column: 2 / 4;
+ /* .schoolLogos img{
+  grid-column: 3 / 4;
   place-self: center center
- }
+ } */
 
 
-}
+
 
 @supports (grid-area: auto) {
 
@@ -512,7 +519,7 @@ h2 {
     grid-template-rows: 75px 130px 50px 40px;
     grid-template-columns:  1fr 2fr 2fr 1fr;
     grid-column-gap: 1.5em;
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
   }
 
   .volunteer img {
@@ -544,10 +551,11 @@ h2 {
   }
 
   .volunteerText {
-    grid-column: 2 /4;
+    grid-column: 2 / 4;
     grid-row: 3/4;
     font-size: 16px;
     place-self: center;
+    color: red;
   }
 
  }
