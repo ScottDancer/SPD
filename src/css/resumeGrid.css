@@ -447,9 +447,25 @@ h2 {
 
   @media screen and (max-width: 815px) {
 
+    .hero {
+      grid-row: 1 / 2;
+    }
+    .resumeTitle {
+      grid-row: 2 / 3;
+    }
+
+    .resumeSubtitle {
+      grid-row: 3 / 4;
+      padding-bottom: 15%;
+    }
+
+
     .headingSummary {
       padding-top: 4%;
-    
+    }
+
+    .resumeWrapper {
+      background-color: #F8F9FA;
     }
 
     .summary {
@@ -502,13 +518,13 @@ h2 {
     .educationDetails {
       display: grid;
       grid-template-columns: .25fr 2fr 2fr .25fr;
-      grid-template-rows: 100px 350px 310px 310px 310px;
+      grid-template-rows: 75px 350px 310px 310px 310px;
       grid-gap: 1.5em;
     }
     
     .educationDetails h2{
       grid-column: 1 / 5;
-      place-self: center;
+      place-self:  end center;
       padding-top: 2%; 
     }
     
