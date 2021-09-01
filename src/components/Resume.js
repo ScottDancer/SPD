@@ -10,13 +10,14 @@ import sdceLogo from "../images/sdceLogo.png";
 import mfaLogo from "../images/mfaLogo.png";
 import harvardExtensionLogo from "../images/harvardExtensionLogo.png";
 
+
 export default class Resume extends Component {
   render() {
     return (
       <>
         
           <div className="resumeWrapper">
-            <h1 className="resumeTitle">Scott Patrcick Dancer</h1>
+            <h1 className="resumeTitle">Scott Patrick Dancer</h1>
             
             <p className="resumeSubtitle">
               <q>The dreamers are the saviors of the wolrd.</q>
@@ -73,7 +74,8 @@ export default class Resume extends Component {
                       https://www.linkedin.com/in/scott-dancer-9744091b2/
                     </p> */}
             </div>
-
+         
+                    
             <img
               src={pdfLogo}
               className="pdfLogo"
