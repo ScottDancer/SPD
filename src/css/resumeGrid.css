@@ -447,6 +447,33 @@ h2 {
 
   @media screen and (max-width: 815px) {
 
+
+    .projectWrap {
+
+      background-color:  red;
+      display: grid;
+      grid-template-columns: 1fr 2fr 2fr 1fr;
+      grid-template-rows: 100px 350px;
+      
+    }
+
+    .projectWrap h2 {
+      grid-column: 2/4;
+      padding-top: 4% ;
+
+    }
+    
+    .projectWrap p {
+      grid-column: 2/4;
+      grid-row: 2 / 3;
+      place-self: center center;
+      font-size: 25px;
+      font-weight: 200;
+      padding-bottom: 40px;
+    }
+
+
+
     .educationDetails {
       display: grid;
       grid-template-columns: .25fr 2fr 2fr .25fr;
