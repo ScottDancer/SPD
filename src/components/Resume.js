@@ -47,7 +47,7 @@ export default class Resume extends Component {
                 meet client expectations. Earned a Certificate in Web
                 Development from the University of Washington.
               </p><br></br>
-              <div>
+              <div className="summaryTextTwo">
               <p> <b>Languages:</b>   HTML5, CSS3, JavaScript/ECMAScript 6, SQL  </p>
               <p> <b> Applications:</b> Github, Heroku, mySQL, Postman, Netlify  </p>
               <p> <b>Tools:</b> Bootstrap, Materialize, jQuery, Node.js, Express, Handlebars.js, ReactJS, MongoDB  </p>

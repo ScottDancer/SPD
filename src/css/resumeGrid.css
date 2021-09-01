@@ -132,6 +132,12 @@ body {
   
 }
 
+.summaryTextTwo {
+  grid-column: 2 / 4;
+
+  
+}
+
 
 
 
