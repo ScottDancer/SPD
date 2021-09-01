@@ -440,13 +440,8 @@ h2 {
 
 /* **--------------MEDIA QUERIES------------** */
 
-
-
-
- @supports (grid-area: auto) {
-
-  @media screen and (max-width: 815px) {
-
+@supports (grid-area: auto) {
+  @media screen and (max-width: 1060px) {
     .hero {
       grid-row: 1 / 2;
     }
@@ -458,6 +453,16 @@ h2 {
       grid-row: 3 / 4;
       padding-bottom: 15%;
     }
+
+  }
+
+}
+
+
+ @supports (grid-area: auto) {
+
+  @media screen and (max-width: 815px) {
+
 
 
     .headingSummary {
