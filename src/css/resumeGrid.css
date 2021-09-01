@@ -524,7 +524,7 @@ h2 {
       display: grid;
       grid-template-columns: .25fr 2fr 2fr .25fr;
       grid-template-rows: 75px 350px 310px 310px 310px;
-      grid-gap: 1.5em;
+      grid-row-gap: 1.5em;
     }
     
     .educationDetails h2{
