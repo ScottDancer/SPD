@@ -166,7 +166,7 @@ export default class Resume extends Component {
   
   <section className="jobItem lastEntry">
     <div className="jobDetails">
-      <h3>Food & Beverage Director/Consultant</h3>
+      <h3>Food & Beverage Director / Consultant</h3>
       <p>Best Western Premier - Vancouver, Washington</p>
       <p>JANUARY 2019 – APRIL 2019</p>
       </div>

@@ -450,10 +450,10 @@ h2 {
 
     .projectWrap {
 
-      background-color:  red;
+      /* background-color:  red; */
       display: grid;
       grid-template-columns: 1fr 2fr 2fr 1fr;
-      grid-template-rows: 100px 350px;
+      grid-template-rows: 100px 200px;
       
     }
 
