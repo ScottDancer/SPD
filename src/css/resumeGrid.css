@@ -447,7 +447,32 @@ h2 {
 
   @media screen and (max-width: 815px) {
 
+    .headingSummary {
+      padding-top: 4%;
+    
+    }
 
+    .summary {
+      /* border-top: 5px solid red; */
+      /* border: 5px solid red; */
+      display: grid;
+      grid-template-columns:  .25fr 2fr 2fr .25fr;
+      grid-gap: 1.5em;
+    }
+
+    .profilePic {
+      grid-column: 1 / 5;
+      grid-row: 2 /3;
+      place-self: center center;
+    }
+
+
+    .pdfLogo {
+      grid-column: 1 / 5;
+      grid-row: 5 / 6;
+      place-self: center center;
+      
+    }
     .projectWrap {
 
       /* background-color:  red; */
@@ -490,7 +515,7 @@ h2 {
     .educationLogos {
       /* background-color: red; */
       display: grid;
-      grid-template-columns: 1fr 2fr 2fr 1fr;
+      grid-template-columns: .25fr 2fr 2fr .25fr;
       grid-template-rows: 130px 50px 50px 150px;
       grid-column: 2 / 4;
       border: 1px solid #CCC5BB; 
@@ -525,6 +550,9 @@ h2 {
 
   }
 }
+
+
+
 
 @supports (grid-area: auto) {
 
