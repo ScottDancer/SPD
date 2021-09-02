@@ -477,8 +477,9 @@ h2 {
       /* border-top: 5px solid red; */
       /* border: 5px solid red; */
       display: grid;
-      grid-template-columns:  .25fr 2fr 2fr .25fr;
-      grid-gap: 1.5em;
+      grid-template-columns:  .2fr 2fr 2fr .2fr;
+      grid-row-gap: 1.5em;
+      grid-column-gap: 0;
     }
 
     .profilePic {
