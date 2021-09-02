@@ -19,7 +19,7 @@ body {
   /* grid-template-columns:  1fr 2fr 2fr 1fr; */
   grid-template-columns: 1fr 4fr 1fr;
   /* grid-template-rows: 1fr 4fr 1fr;  */
-  grid-column-gap: 1.5em;
+  grid-column-gap: 2.5em;
 
 }
 
@@ -28,7 +28,7 @@ body {
 
 
 .resumeTitle {
-  grid-column: 1 / 5;
+  grid-column: 1 / 4;
   justify-content: center;
   text-align: center;
   grid-row: 1 / 2;
@@ -471,6 +471,8 @@ h2 {
 
     .resumeWrapper {
       background-color: #F8F9FA;
+      display: grid;
+      grid-template-columns:  1fr 4fr 1fr;
     }
 
     .summary {
