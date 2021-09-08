@@ -57,7 +57,8 @@ export default class Resume extends Component {
             </div>
 
             <div className="contactInfo">
-              <p>Vancouver, WA</p>
+              <p>Vancouver, WA &</p>
+              <p>Cannon Beach, OR </p>
               <p>(360) 953-7969</p>
               <ul>
                 <li>
@@ -180,8 +181,11 @@ export default class Resume extends Component {
         <li>Provided training empowering staff to resolved problems efficiently ensuring both guest satisfaction and quality assurance </li>
       </ul>
       </div>
+     
   </section>
+  <p className="references">(references & full work history available upon request)</p>
   </div>
+
 </section>
 
 

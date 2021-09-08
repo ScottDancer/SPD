@@ -213,19 +213,28 @@ body {
 /* .contentWrap {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
-}
+} */
 
-h2 {
+/* h2 {
   grid-column: 1 /5;
  
 
-}
+} */
 
-.contentWrap p {
+/* .contentWrap p {
   grid-column: 2 / 4;
 
 } */
 
+.references {
+ 
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+
+
+
+ }
 
 
 
@@ -598,6 +607,14 @@ h2 {
       grid-column: 2 / 4;
     
     }
+    .references{
+      display: grid;
+      grid-template-columns: 2fr;
+      grid-column: 1 / 2;
+      place-self: center center;
+
+    
+     }
 
   }
 }
