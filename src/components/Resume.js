@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import FacePic from "../images/headshot.jpg";
+import FacePic from "../images/septProfile.jpg";
 import pdfLogo from "../images/pdfLogo.jpg";
 import heroComputerd from "../images/heroComputerd.jpg";
 import linkedinLogo from "../images/linkedinLogo.jpg";
