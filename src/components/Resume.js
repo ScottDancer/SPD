@@ -15,8 +15,34 @@ export default class Resume extends Component {
   render() {
     return (
       <>
+
+{/* <!-- ********************  Figured out how to jump around in a page! not styled, therfore, not activated yet  ********************* --> */}
+
+      {/* <nav id="navbar" class="nav">
+  <ul class="nav-list">
+  <li>
+      <a href="#top">Back to the Top</a>
+    </li>
+    <li>
+      <a href="#contact">Summary</a>
+    </li>
+    <li>
+      <a href="#div-projectWrap">Featured Projects</a>
+    </li>
+    <li>
+      <a href="#projects">Work Experience</a>
+    </li>
+    <li>
+      <a href="#contact">Education</a>
+    </li>
+    <li>
+      <a href="#volunteer">Volunteer</a>
+    </li>
+   
+  </ul>
+</nav> */}
         
-          <div className="resumeWrapper">
+          <div id="top" className="resumeWrapper">
             <h1 className="resumeTitle">Scott Patrick Dancer</h1>
             
             <p className="resumeSubtitle">
@@ -280,7 +306,7 @@ export default class Resume extends Component {
 
 
 
-          <div className="volunteer">
+          <div id="volunteer" className="volunteer">
             <h2>Volunteer Work</h2>
 
             <img
@@ -328,6 +354,9 @@ export default class Resume extends Component {
                 </li>
               </ul>
             </div>
+            {/* <li>
+      <a href="#top">Back to the Top</a>
+    </li> */}
           </footer>
    
       </>
